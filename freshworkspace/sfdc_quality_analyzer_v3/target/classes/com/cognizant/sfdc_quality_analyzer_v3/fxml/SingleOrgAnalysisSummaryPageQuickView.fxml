@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.SingleOrgAnalysisSummaryPageQuickView">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="496.0" prefHeight="199.0" prefWidth="880.0">
+         <children>
+            <Button id="switchToTestAutomationHomePage" fx:id="switchToTestAutomationHomePage" layoutX="299.0" layoutY="82.0" onAction="#switchToTestAutomationHomePage" prefHeight="111.0" prefWidth="285.0" text="Go To Selenium Test Automation Page" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="85.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-selenium.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="identifyAutomationTestScriptsButton" layoutX="14.0" layoutY="82.0" onAction="#identifyAutomationTestScripts" prefHeight="111.0" prefWidth="263.0" text="Run Test Impact Analysis" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="88.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-pass-fail.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="createPackageXMLFileButton" disable="true" layoutX="604.0" layoutY="81.0" onAction="#createPackageXMLFile" prefHeight="111.0" prefWidth="263.0" text="Create package.xml with Identified Impacted SFDC Components" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-xml-file.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <ComboBox id="SelectReportingFileFormat" fx:id="SelectReportingFileFormat" layoutX="14.0" layoutY="25.0" prefHeight="31.0" prefWidth="154.0" promptText="Select File Format" />
+            <Button fx:id="generateImpactAnalysisReportButton" layoutX="175.0" layoutY="24.0" mnemonicParsing="false" onAction="#generateImpactAnalysisReport" prefHeight="31.0" prefWidth="278.0" text="Generate Impact Analysis Report">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-automation.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <TextField id="GeneratedReportPath" fx:id="GeneratedReportPath" layoutX="460.0" layoutY="24.0" prefHeight="31.0" prefWidth="409.0" promptText="This is the Path, where your Impact Analysis report will get saved">
+               <tooltip>
+                  <Tooltip text="This is the Path, where your Impact Analysis report will get saved" />
+               </tooltip>
+            </TextField>
+            <Separator layoutX="18.0" layoutY="7.0" prefHeight="7.0" prefWidth="835.0" />
+            <Separator layoutX="20.0" layoutY="64.0" prefHeight="7.0" prefWidth="835.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="368.0" layoutY="19.0" prefHeight="33.0" prefWidth="318.0" text="Single Org Analysis Summary Page View" />
+      <Button fx:id="PreviousPageButton" layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="40.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="HomeButton" layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="780.0" layoutY="6.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <AnchorPane layoutX="15.0" layoutY="59.0" prefHeight="75.0" prefWidth="869.0">
+         <children>
+            <Button id="FindImpactedComponentsButton" fx:id="FindImpactedComponentsButton" layoutX="569.0" layoutY="12.0" mnemonicParsing="false" onAction="#FindImpactedComponents" prefHeight="39.0" prefWidth="298.0" text="Find Impacted Salesforce Components" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-automation.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Separator layoutX="17.0" layoutY="63.0" prefHeight="7.0" prefWidth="835.0" />
+            <Label layoutX="8.0" layoutY="3.0" prefHeight="59.0" prefWidth="399.0" text="Enter Number of Days (in N format) in given text box for which you want to run this Quick Comparison" textAlignment="CENTER" wrapText="true" />
+         </children>
+      </AnchorPane>
+      <TextField id="NumberOfDays" fx:id="NumberOfDays" layoutX="444.0" layoutY="71.0" prefHeight="39.0" prefWidth="132.0" promptText="'N' number of Days" />
+      <AnchorPane layoutX="594.0" layoutY="130.0" prefHeight="364.0" prefWidth="278.0">
+         <children>
+            <Button id="SeeInScopeComponentsButton" fx:id="SeeInScopeComponentsButton" layoutX="26.0" layoutY="26.0" mnemonicParsing="false" onAction="#SeeInScopeComponents" prefHeight="144.0" prefWidth="226.0" text="Click to see IN SCOPE Components , which could be included in your Impact Analysis report" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="67.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-help.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button id="SeeOutScopeComponentsButton" fx:id="SeeOutScopeComponentsButton" layoutX="26.0" layoutY="196.0" mnemonicParsing="false" onAction="#SeeOutScopeComponents" prefHeight="144.0" prefWidth="226.0" text="Click to see OUT SCOPE Components , which are excluded from your Impact Analysis report" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="52.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-help.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="24.0" layoutY="134.0" prefHeight="364.0" prefWidth="578.0">
+         <children>
+            <Button disable="true" layoutX="181.0" layoutY="5.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="166.0" text="Impact Analysis Result" textAlignment="CENTER" wrapText="true" />
+            <ImageView id="RecordFoundSmiley" fx:id="RecordFoundSmiley" fitHeight="205.0" fitWidth="244.0" layoutX="28.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" />
+            <Button id="ViewMoreDetailsButton" fx:id="ViewMoreDetailsButton" layoutX="133.0" layoutY="275.0" mnemonicParsing="false" onAction="#ViewMoreDetails" prefHeight="75.0" prefWidth="255.0" text="View More Details">
+               <graphic>
+                  <ImageView fitHeight="63.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-light-automation.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label id="RecordCountPrefix" fx:id="RecordCountPrefix" layoutX="404.0" layoutY="45.0" prefHeight="31.0" prefWidth="77.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label id="RecordCount" fx:id="RecordCount" alignment="CENTER" layoutX="307.0" layoutY="82.0" prefHeight="134.0" prefWidth="255.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label id="RecordCountSuffix" fx:id="RecordCountSuffix" layoutX="358.0" layoutY="225.0" prefHeight="31.0" prefWidth="160.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

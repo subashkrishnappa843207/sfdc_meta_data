@@ -1,0 +1,12 @@
+2021-05-18 22:41:37 INFO  AppSettingsPage:40 - sfdc.oauth.clientid
+2021-05-18 22:41:37 INFO  AppSettingsPage:46 - sfdc.oauth.clientid
+2021-05-18 22:41:37 INFO  AppLauncherPage:40 - Switching to App Settings Page
+2021-05-18 22:41:41 INFO  AppSettingsPage:81 - Primary Client Id has been set successfully
+2021-05-18 22:41:42 INFO  AppSettingsPage:53 - Going back to the Login Page
+2021-05-18 22:41:43 INFO  AppLauncherPage:34 - Switching to App Home Page
+2021-05-18 22:41:44 INFO  AppHomePage:30 - Switching to SFDC Org Impact Analysis Page
+2021-05-18 22:41:45 INFO  SFDCOrgImpactAnalysisPage:23 - Moving to Multi Org Impact Analysis Login Page
+2021-05-18 22:41:49 INFO  MultiOrgLoginPage:99 - sourceEnvironmentList.getValue(): Production
+2021-05-18 22:41:49 INFO  MultiOrgLoginPage:100 - sourceAPIVersionList.getValue(): null
+2021-05-18 22:41:49 INFO  SFDCContext:53 - API Version set to /vnull
+2021-05-18 22:41:52 INFO  MultiOrgLoginPage:284 - Moving back to Home Page

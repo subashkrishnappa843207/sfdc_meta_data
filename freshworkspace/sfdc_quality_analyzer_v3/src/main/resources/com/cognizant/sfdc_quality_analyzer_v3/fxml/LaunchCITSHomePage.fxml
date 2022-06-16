@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.LaunchCITSHomePage">
+   <children>
+      <Label layoutX="292.0" layoutY="23.0" prefHeight="31.0" prefWidth="420.0" text="Cognizant Intelligent Test Scripter Selenium Test Home Page" />
+      <Button layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="40.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <AnchorPane fx:id="SAT_FirstAnchorPane" layoutX="6.0" layoutY="188.0" prefHeight="499.0" prefWidth="888.0">
+         <children>
+            <RadioButton fx:id="FirstRadioButton" layoutX="450.0" layoutY="54.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" text="CITS v1.2" />
+            <RadioButton fx:id="SecondRadioButton" layoutX="588.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" text="CITS v1.3" />
+            <RadioButton fx:id="ThirdRadioButton" layoutX="715.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" text="CITS v1.4" />
+            <Label layoutX="422.0" layoutY="14.0" prefHeight="31.0" prefWidth="420.0" text="Compatible CITS version is autoselected based on your System Java Version" />
+            <Button fx:id="launchCITSToolButton" layoutX="497.0" layoutY="105.0" mnemonicParsing="false" onAction="#launchCITSTool" prefHeight="107.0" prefWidth="254.0" text="Launch CITS Tool" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="98.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-automation.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button layoutX="646.0" layoutY="380.0" mnemonicParsing="false" onAction="#clickHelpButton" prefHeight="31.0" prefWidth="237.0" text="CITS Help Doc">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-help.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button layoutX="646.0" layoutY="421.0" mnemonicParsing="false" onAction="#clickOpenGitRepoButton" prefHeight="31.0" prefWidth="237.0" text="CITS Github Repository">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-help.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button layoutX="646.0" layoutY="462.0" mnemonicParsing="false" onAction="#clickOpenSeleniumOfficialSiteButton" prefHeight="32.0" prefWidth="237.0" text="Selenium Testing Help Doc">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-help.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="JavaVersionCheckButton" fx:id="JavaVersionCheckButton" layoutX="97.0" layoutY="16.0" mnemonicParsing="false" onAction="#JavaVersionCheck" prefHeight="68.0" prefWidth="224.0" text="Check Java Version in your System" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="72.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-automation.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Label layoutX="3.0" layoutY="241.0" prefHeight="32.0" prefWidth="96.0" text="Project Path : " />
+            <TextField fx:id="ProjectPathTextField" layoutX="105.0" layoutY="243.0" prefHeight="32.0" prefWidth="653.0" />
+            <Button fx:id="OpenCITSProjectPathButton" layoutX="767.0" layoutY="242.0" mnemonicParsing="false" onAction="#OpenCITSProjectPath" prefHeight="32.0" prefWidth="116.0" text="Open">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-folder-128.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="780.0" layoutY="6.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>

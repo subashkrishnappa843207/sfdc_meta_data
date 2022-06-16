@@ -1,0 +1,28 @@
+{
+  "DownloadedSOQLResults": [
+    {
+      "records": [
+        {
+          "DurableId": "000000000000000AAA"
+        },
+        {
+          "DurableId": "bWRjLzBIRS9BY2NvdW50U2V0dGluZ3M\u003d"
+        },
+        {
+          "DurableId": "{\"urls\":null,\"enableAccountHistoryTracking\":false,\"enableAccountTeams\":false,\"showViewHierarchyLink\":true,\"enableRelateContactToMultipleAccounts\":false,\"enableContactHistoryTracking\":false,\"enableAccountOwnerReport\":null}"
+        },
+        {
+          "DurableId": "Account"
+        },
+        {
+          "DurableId": "false"
+        },
+        {
+          "DurableId": "true"
+        }
+      ],
+      "TotalRecords": 6
+    }
+  ],
+  "TotalRecords": 1
+}

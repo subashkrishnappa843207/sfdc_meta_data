@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.SingleOrgLoginPage">
+   <children>
+      <ComboBox fx:id="EnvironmentList" layoutX="76.0" layoutY="256.0" prefHeight="37.0" prefWidth="245.0" promptText="Environment" />
+      <ComboBox fx:id="APIVersionList" layoutX="76.0" layoutY="307.0" prefHeight="37.0" prefWidth="245.0" promptText="API Version" />
+      <Button fx:id="singleOrgUserLoginButton" layoutX="63.0" layoutY="364.0" onAction="#singleOrgUserLogin" prefHeight="75.0" prefWidth="270.0" text="Authenticate &amp; Authorize Salesforce User" textAlignment="CENTER" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-user-shield.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <AnchorPane layoutX="450.0" layoutY="107.0" prefHeight="486.0" prefWidth="399.0">
+         <children>
+            <Label layoutX="14.0" layoutY="48.0" prefHeight="242.0" prefWidth="375.0" text="This Feature will help you to identify the Modified Salesforce components and Prioritize the Impacted Test Cases based on your findings. Optimizer reports on recent changes made on your salesforce components and is divided into many different sections, the main ones being captured using salesforce Tooling API and key components are as follows : Objects and its related components, Apex components, Custom Layouts for Objects, Validation Rules, Sharing Rules, Workflow Rules, User Management, Profiles and Permission Sets etc. Below are Key features developed for you to use :   " textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="32.0" layoutY="278.0" prefHeight="29.0" prefWidth="358.0" text="1. The Recently Modified Components we have found in your org" />
+            <Label layoutX="33.0" layoutY="307.0" prefHeight="29.0" prefWidth="358.0" text="2. Find out Impacted Test cases mapped with this Components" />
+            <Label layoutX="33.0" layoutY="338.0" prefHeight="29.0" prefWidth="328.0" text="3. See the details in generated Reports" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="68.0" layoutY="143.0" prefHeight="75.0" prefWidth="270.0" text=" Salesforce Single Org Impact Analysis Sign in below to get started!!!" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="HomeButton" layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="PreviousPageButton" layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="40.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="780.0" layoutY="6.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="354.0" layoutY="25.0" prefHeight="29.0" prefWidth="245.0" text="Single Org Login Page View" />
+      <Separator layoutX="425.0" layoutY="182.0" orientation="VERTICAL" prefHeight="324.0" prefWidth="1.0" />
+   </children>
+</AnchorPane>

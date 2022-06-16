@@ -1,0 +1,97 @@
+{
+  "FinalImpactDetails": [
+    {
+      "records": [],
+      "TotalRecords": 0,
+      "TestCaseName": "ApexPage"
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "TestCaseNumber02",
+          "ComponentNames": [
+            "TestObject"
+          ]
+        }
+      ],
+      "TotalRecords": 1,
+      "TestCaseName": "CustomObject"
+    },
+    {
+      "records": [],
+      "TotalRecords": 0,
+      "TestCaseName": "ApexClassMember"
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "TestDeb02",
+          "ComponentNames": [
+            "Associated Location Layout"
+          ]
+        }
+      ],
+      "TotalRecords": 1,
+      "TestCaseName": "Layout"
+    },
+    {
+      "records": [],
+      "TotalRecords": 0,
+      "TestCaseName": "ApexClass"
+    },
+    {
+      "records": [],
+      "TotalRecords": 0,
+      "TestCaseName": "ApexExecutionOverlayAction"
+    },
+    {
+      "records": [],
+      "TotalRecords": 0,
+      "TestCaseName": "ApexLog"
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "TestCaseNumber03",
+          "ComponentNames": [
+            "TestCheckBox_Custom",
+            "Active"
+          ]
+        },
+        {
+          "ComponentType": "TestCaseNumber02",
+          "ComponentNames": [
+            "TestCheckBox_Custom"
+          ]
+        }
+      ],
+      "TotalRecords": 2,
+      "TestCaseName": "CustomField"
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "TestCaseNumber01",
+          "ComponentNames": [
+            "HelloWorldTrigger",
+            "HelloWorldTrigger_Campaign"
+          ]
+        },
+        {
+          "ComponentType": "TestCaseNumber08",
+          "ComponentNames": [
+            "HelloWorldTrigger_Campaign"
+          ]
+        }
+      ],
+      "TotalRecords": 2,
+      "TestCaseName": "ApexTrigger"
+    },
+    {
+      "records": [],
+      "TotalRecords": 0,
+      "TestCaseName": "ApexComponent"
+    }
+  ],
+  "TotalRecords": 10
+}

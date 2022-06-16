@@ -1,0 +1,814 @@
+{
+  "FinalImpactDetails": [
+    {
+      "ComponentType": "DeployRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceFlow",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "InboundNetworkConnection",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Document",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceFlowConfig",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "BrandingSetProperty",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FieldMappingField",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningBolt",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Scontrol",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LocalizedValue",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2Member",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PromptVersion",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "TestSuiteMembership",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ContainerAsyncRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectResourceType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "DebugLevel",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FlexiPage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomObject",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PackageVersionUninstallRequestError",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceCustomComponent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowFieldUpdate",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AssignmentRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UiFormulaCriterion",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningComponentBundle",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AnimationRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UserProvisioningConfig",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowOutboundMessage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UiFormulaRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UserCriteria",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexClass",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexExecutionOverlayAction",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectAsset",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleasedApexClassRel",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FieldMappingRow",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomNotificationType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PlatformEventChannel",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Group",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PlatformEventChannelMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "RecommendationStrategy",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowAlertMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "InboundNetworkConnProperty",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningExperienceTheme",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FlowElementTestCoverage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectResourceDefinition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Profile",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexEmailNotification",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomApplication",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ExternalServiceRegistration",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FieldSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PackageUploadRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AuraDefinitionBundle",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "HomePageComponent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowRuleMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CleanDataService",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CompactLayout",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AuraDefinition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "HomePageLayout",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PlatformCachePartitionType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "QuickActionDefinition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexDebuggerSession",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectSource",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ExternalString",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceBranding",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PathAssistantStepItem",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WebLink",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceQuickAction",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Flow",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexTestSuite",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PackageVersionInstallRequestError",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Layout",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PortalDelegablePermissionSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AuraDefinitionChange",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Prompt",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PathAssistant",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexComponent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AutoResponseRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "MutingPermissionSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "NamedCredential",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowFieldUpdateMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomFieldMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ManagedContentNodeType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PathAssistantStepInfo",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PlatformCachePartition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleasedEntityState",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Index",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2Version",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexPageMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningMessageChannel",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2VersionCreateRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "IDEWorkspace",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceConfig",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PostTemplate",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleasedApexIdentifierOption",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "IndexField",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleaseUpdateStep",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "QuickActionList",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexClassMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "QuickActionListItem",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ChannelLayout",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "TraceFlag",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowOutboundMessageMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexTriggerMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "OutboundNetworkConnProperty",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ValidationRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexExecutionOverlayResult",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "DeployTestResult",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PermissionSet",
+      "records": [
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "CRM User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "Salesforce Console User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "Service Cloud User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:57.000+0000",
+          "ComponentName": "Security Center Integration User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "Sales Cloud User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:57.000+0000",
+          "ComponentName": "Salesforce CMS Integration Admin"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "Standard Einstein Activity Capture"
+        }
+      ],
+      "TotalRecords": 7
+    },
+    {
+      "ComponentType": "WorkflowRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowAlert",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmailTemplate",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "DataAssessmentConfigItem",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "TransactionSecurityPolicy",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ValidationRuleMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CleanRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ModerationRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectPersonalization",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomTab",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FieldMapping",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "GlobalValueSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowTask",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ManagedContentType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "OutboundNetworkConnection",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowTaskMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PaymentGatewayProvider",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexComponentMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "RecordType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LookupFilter",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexTrigger",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FlowDefinition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PermissionSetGroup",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "RemoteProxy",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "RecordActionDeployment",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectLanguage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleasedApexIdentifier",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "StaticResource",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomHelpMenuSection",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "IDEPerspective",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2VersionCreateRequestError",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexPage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "MetadataContainer",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "BrandingSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningComponentResource",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceLiveAgent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceMenuItem",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PermissionSetGroupComponent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UserRole",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PackageInstallRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexLog",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomField",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "KeywordList",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningMessageField",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "BusinessProcess",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CspTrustedSite",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FlowCategory",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningOnboardingConfig",
+      "records": [],
+      "TotalRecords": 0
+    }
+  ],
+  "TotalRecords": 156
+}

@@ -1,0 +1,99 @@
+{
+  "FinalImpactDetails": [
+    {
+      "ComponentType": "PermissionSet",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Commerce Admin"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "CRM User"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Shopper"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Buyer"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Salesforce Console User"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Service Cloud User"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Security Center Integration User"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Buyer Manager"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Sales Cloud User"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Merchandiser"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Standard Einstein Activity Capture"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Salesforce CMS Integration Admin"
+        }
+      ],
+      "TotalRecords": 12
+    },
+    {
+      "ComponentType": "WorkflowRule",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-09T01:49:13.000+0000",
+          "ComponentName": "01Q5x000000KfeoEAC"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "TraceFlag",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-09T16:24:15.000+0000",
+          "ComponentName": "7tff2000002gSlSAAU"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "FlowDefinition",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-09T16:21:12.000+0000",
+          "ComponentName": "dsfsdgfdsfgdfg"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "Flow",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-09T16:21:12.000+0000",
+          "ComponentName": "dsfsdgfdsfgdfg"
+        }
+      ],
+      "TotalRecords": 1
+    }
+  ],
+  "TotalRecords": 5
+}

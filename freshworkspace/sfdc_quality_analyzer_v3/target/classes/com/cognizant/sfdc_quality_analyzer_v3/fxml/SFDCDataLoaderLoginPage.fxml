@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.SFDCDataloaderLoginPage">
+   <children>
+      <AnchorPane layoutX="216.0" layoutY="137.0" prefHeight="302.0" prefWidth="441.0">
+         <children>
+            <Button fx:id="sfdcDataloaderLoginButton" layoutX="100.0" layoutY="194.0" onAction="#sfdcDataloaderLogin" prefHeight="88.0" prefWidth="276.0" text="Authenticate and Authorize Salesforce User" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="58.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-user-shield.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <ComboBox fx:id="EnvironmentList" layoutX="115.0" layoutY="92.0" prefHeight="37.0" prefWidth="245.0" promptText="Environment" />
+            <ComboBox fx:id="APIVersionList" layoutX="115.0" layoutY="142.0" prefHeight="37.0" prefWidth="245.0" promptText="API Version" />
+            <Separator layoutX="137.0" layoutY="62.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="780.0" layoutY="6.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label layoutX="317.0" layoutY="25.0" prefHeight="48.0" prefWidth="245.0" text="Salesforce Query Wizard Login Page" />
+      <Label layoutX="59.0" layoutY="85.0" prefHeight="106.0" prefWidth="788.0" text="This feature will be more helpful for those Out Of Scope Objects for which You can't run Impact Analysis using other features of this tool. With this feature You can Run Custom SOQL Query as per your need on both Object Types i.e Salesforce Standard &amp; Custom Objects And Salesforce SObjects supported by Tooling API and find out more details on both In-scope and Out Scope component types from Single Org and Multi Org Impact Analysis Pages." textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

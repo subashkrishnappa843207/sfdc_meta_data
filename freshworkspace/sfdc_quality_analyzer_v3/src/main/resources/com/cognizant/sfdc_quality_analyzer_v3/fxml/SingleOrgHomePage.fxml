@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.SingleOrgHomePage">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="282.0" prefHeight="106.0" prefWidth="872.0">
+         <children>
+            <TextField id="TextOrganizationName" fx:id="TextOrganizationName" layoutX="620.0" layoutY="46.0" prefHeight="25.0" prefWidth="238.0" promptText="Logged In Organization Name">
+               <tooltip>
+                  <Tooltip text="Logged In Organization Name" />
+               </tooltip>
+            </TextField>
+            <TextField id="TextOrganizationID" fx:id="TextOrganizationID" layoutX="14.0" layoutY="79.0" prefHeight="25.0" prefWidth="250.0" promptText="Logged In Organization ID">
+               <tooltip>
+                  <Tooltip text="Logged In Organization ID" />
+               </tooltip>
+            </TextField>
+            <TextField id="TextOrganizationEdition" fx:id="TextOrganizationEdition" layoutX="279.0" layoutY="47.0" prefHeight="25.0" prefWidth="195.0" promptText="Logged In Organization Edition">
+               <tooltip>
+                  <Tooltip text="Logged In Organization Edition" />
+               </tooltip>
+            </TextField>
+            <TextField id="isSandbox" fx:id="isSandbox" layoutX="488.0" layoutY="47.0" prefHeight="25.0" prefWidth="118.0" promptText="Is this a Sandbox ?">
+               <tooltip>
+                  <Tooltip text="Is this a Sandbox environment?" />
+               </tooltip>
+            </TextField>
+            <TextField id="TextSalesforceUserName" fx:id="TextSalesforceUserName" layoutX="14.0" layoutY="47.0" prefHeight="25.0" prefWidth="250.0" promptText="Logged In Salesforce Username">
+               <tooltip>
+                  <Tooltip text="Logged In Salesforce Username" />
+               </tooltip>
+            </TextField>
+            <TextField id="TextEndpointURL" fx:id="TextEndpointURL" layoutX="279.0" layoutY="79.0" prefHeight="25.0" prefWidth="579.0" promptText="Endpoint URL Of Logged In Salesforce Environment">
+               <tooltip>
+                  <Tooltip text="Endpoint URL Of Logged In Salesforce Environment" />
+               </tooltip>
+            </TextField>
+            <Button disable="true" layoutX="236.0" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="380.0" text="Basic Info about Logged In Salesforce Environment" />
+            <Separator layoutX="40.0" layoutY="21.0" prefHeight="3.0" prefWidth="186.0" />
+            <Separator layoutX="623.0" layoutY="22.0" prefHeight="3.0" prefWidth="186.0" />
+         </children></AnchorPane>
+      <Label layoutX="389.0" layoutY="22.0" prefHeight="25.0" prefWidth="177.0" text="Single Org Home Page View" textAlignment="CENTER" />
+      <Button id="SingleOrgAnalysisSummaryPageButton" fx:id="SingleOrgAnalysisSummaryPageButton" layoutX="612.0" layoutY="634.0" mnemonicParsing="false" onAction="#switchToSingleOrgAnalysisSummaryPage" prefHeight="54.0" prefWidth="274.0" text="Go to Analysis Summary Page" textAlignment="CENTER" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="46.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-automation.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <AnchorPane layoutX="14.0" layoutY="397.0" prefHeight="228.0" prefWidth="872.0">
+         <children>
+            <Button disable="true" layoutX="268.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="308.0" text="Select Impact Analysis Type You want to perform :-" />
+            <Separator layoutX="40.0" layoutY="16.0" prefHeight="3.0" prefWidth="214.0" />
+            <Separator layoutX="595.0" layoutY="16.0" prefHeight="3.0" prefWidth="214.0" />
+            <RadioButton id="FirstRadioButton" fx:id="FirstRadioButton" layoutX="227.0" layoutY="48.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="627.0" text="Find Impacted Salesforce Components , modified after Given Date" />
+            <RadioButton id="SecondRadioButton" fx:id="SecondRadioButton" layoutX="227.0" layoutY="77.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="627.0" text="Find Impacted Salesforce Components , modified between Any Two Given Date" />
+            <RadioButton id="FourthRadioButton" fx:id="FourthRadioButton" layoutX="228.0" layoutY="136.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="627.0" text="Choose Your Salesforce Component &amp; Find If it is modified between Any 2 Given Date" />
+            <RadioButton id="ThirdRadioButton" fx:id="ThirdRadioButton" layoutX="227.0" layoutY="106.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="627.0" text="Choose Your Salesforce Component &amp; Find If it is modified after Given Date" />
+            <RadioButton id="FifthRadioButton" fx:id="FifthRadioButton" layoutX="228.0" layoutY="170.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="627.0" text="Perform Quick View Analysis to Find Salesforce Components modified in Last N number of Days" />
+            <Separator layoutX="35.0" layoutY="204.0" prefHeight="3.0" prefWidth="779.0" />
+            <ImageView fitHeight="150.0" fitWidth="152.0" layoutX="48.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-light-automation.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="SecurityHealthCheckAnchorPane" fx:id="SecurityHealthCheckAnchorPane" layoutX="92.0" layoutY="52.0" prefHeight="195.0" prefWidth="320.0">
+         <children>
+            <BorderPane id="SecurityHealthCheckBorderPane" fx:id="SecurityHealthCheckBorderPane" prefHeight="195.0" prefWidth="320.0" />
+         </children></AnchorPane>
+      <AnchorPane id="ApexOrgWideCoverageAnchorPane" fx:id="ApexOrgWideCoverageAnchorPane" layoutX="523.0" layoutY="52.0" prefHeight="195.0" prefWidth="320.0">
+         <children>
+            <BorderPane id="ApexOrgWideCoverageBorderPane" fx:id="ApexOrgWideCoverageBorderPane" prefHeight="195.0" prefWidth="320.0" />
+         </children></AnchorPane>
+      <Button id="SecurityHealthCheckDetailsButton" fx:id="SecurityHealthCheckDetailsButton" layoutX="135.0" layoutY="254.0" mnemonicParsing="false" onAction="#SecurityHealthCheckDetailsButton" prefHeight="25.0" prefWidth="297.0" text="Security Health Check Score">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-light-automation.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button id="ApexOrgWideCoverageDetailsButton" fx:id="ApexOrgWideCoverageDetailsButton" layoutX="567.0" layoutY="252.0" mnemonicParsing="false" onAction="#ApexOrgWideCoverageDetailsButton" prefHeight="25.0" prefWidth="297.0" text="Apex OrgWide Code Coverage">
+         <graphic>
+            <ImageView fitHeight="16.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-light-automation.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="HomeButton" layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="PreviousPageButton" layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="40.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="780.0" layoutY="6.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

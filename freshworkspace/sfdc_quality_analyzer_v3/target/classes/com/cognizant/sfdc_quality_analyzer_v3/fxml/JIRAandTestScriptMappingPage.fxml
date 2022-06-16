@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.JIRAandTestScriptMappingPage">
+   <children>
+      <Label layoutX="306.0" layoutY="45.0" prefHeight="31.0" prefWidth="418.0" text="JIRA User Stories and Automation Test Script Mapping Page" />
+      <Button layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="40.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="780.0" layoutY="6.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <AnchorPane fx:id="SAT_SecondAnchorPane" layoutX="23.0" layoutY="146.0" prefHeight="226.0" prefWidth="855.0">
+         <children>
+            <Label layoutX="349.0" layoutY="4.0" prefHeight="31.0" prefWidth="290.0" text="Login to your Atlassian JIRA Instance" />
+            <Button layoutX="81.0" layoutY="134.0" mnemonicParsing="false" onAction="#mapAutomationScriptsWithSfdcComponents" prefHeight="73.0" prefWidth="255.0" text="Authenticate and Authorize Salesforce User" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="59.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-user-shield.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <ComboBox layoutX="108.0" layoutY="41.0" prefHeight="31.0" prefWidth="209.0" promptText="Environment" />
+            <ComboBox layoutX="108.0" layoutY="85.0" prefHeight="31.0" prefWidth="209.0" promptText="API Version" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="83.0" layoutY="81.0" prefHeight="63.0" prefWidth="772.0" text="Note : This feature to map the JIRA User Stories  and Automation Scripts you have build with Congizant Intelligent Test Scripter Tool. This mapping will help you to identify the JIRA stories based on Impacted automated test scripts which you have identified from &quot;Salesforce Components Vs Automation Test Script Impact Analysis&quot; Step." textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

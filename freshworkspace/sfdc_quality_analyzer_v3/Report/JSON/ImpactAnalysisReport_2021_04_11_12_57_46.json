@@ -1,0 +1,161 @@
+{
+  "FinalImpactDetails": [
+    {
+      "records": [
+        {
+          "ComponentType": "ApexClass"
+        },
+        {
+          "SourceOrgId": "00Df2000000BoLSEA0"
+        },
+        {
+          "SourceOrgComponentNames": "[SiteLoginController, SiteLoginControllerTest, SiteRegisterController, SiteRegisterControllerTest, ChangePasswordController, ChangePasswordControllerTest, ForgotPasswordController, ForgotPasswordControllerTest, CommunitiesSelfRegControllerTest, CommunitiesSelfRegConfirmController, CommunitiesSelfRegConfirmControllerTest, LightningSelfRegisterController, LightningForgotPasswordController, LightningLoginFormController, LightningLoginFormControllerTest, MyProfilePageController, MyProfilePageControllerTest, CommunitiesLoginController, CommunitiesLoginControllerTest, CommunitiesLandingController, CommunitiesLandingControllerTest, CommunitiesSelfRegController, LightningForgotPasswordControllerTest, LightningSelfRegisterControllerTest, TaskUtilTest, TaskUtil, TestAccountDeletion, TemperatureConverterTest, TemperatureConverter, FundController, FundControllerTest]"
+        },
+        {
+          "TargetOrgId": "00D2v000000QZ7MEAW"
+        },
+        {
+          "TargetOrgComponentNames": "[CallBatchController, TestSuiteAggregationBatch, TestSuiteAggregationBatch_Test]"
+        },
+        {
+          "MissingComponents": "[LightningSelfRegisterController, CommunitiesSelfRegConfirmController, TemperatureConverterTest, TestSuiteAggregationBatch_Test, SiteLoginControllerTest, CommunitiesSelfRegController, SiteRegisterControllerTest, ForgotPasswordControllerTest, TestSuiteAggregationBatch, FundControllerTest, CommunitiesSelfRegConfirmControllerTest, MyProfilePageController, LightningLoginFormControllerTest, LightningForgotPasswordControllerTest, ChangePasswordControllerTest, TaskUtilTest, TestAccountDeletion, CommunitiesLoginController, CommunitiesSelfRegControllerTest, LightningLoginFormController, MyProfilePageControllerTest, CommunitiesLoginControllerTest, FundController, CommunitiesLandingController, ForgotPasswordController, LightningSelfRegisterControllerTest, TemperatureConverter, SiteLoginController, CallBatchController, TaskUtil, LightningForgotPasswordController, CommunitiesLandingControllerTest, SiteRegisterController, ChangePasswordController]"
+        },
+        {
+          "MatchingComponents": "[]"
+        }
+      ],
+      "TotalRecords": 6
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "ApexComponent"
+        },
+        {
+          "SourceOrgId": "00Df2000000BoLSEA0"
+        },
+        {
+          "SourceOrgComponentNames": "[SiteFooter, SiteHeader, SiteLogin, SitePoweredBy]"
+        },
+        {
+          "TargetOrgId": "00D2v000000QZ7MEAW"
+        },
+        {
+          "TargetOrgComponentNames": "[]"
+        },
+        {
+          "MissingComponents": "[SiteFooter, SiteLogin, SitePoweredBy, SiteHeader]"
+        },
+        {
+          "MatchingComponents": "[]"
+        }
+      ],
+      "TotalRecords": 6
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "ApexPage"
+        },
+        {
+          "SourceOrgId": "00Df2000000BoLSEA0"
+        },
+        {
+          "SourceOrgComponentNames": "[SiteRegister, ChangePassword, ForgotPassword, SiteLogin, ForgotPasswordConfirm, SiteRegisterConfirm, MyProfilePage, StdExceptionTemplate, SiteTemplate, FileNotFound, BandwidthExceeded, Exception, InMaintenance, Unauthorized, UnderConstruction, IdeasHome, AnswersHome, CommunitiesTemplate, CommunitiesLogin, CommunitiesLanding, CommunitiesSelfReg, CommunitiesSelfRegConfirm]"
+        },
+        {
+          "TargetOrgId": "00D2v000000QZ7MEAW"
+        },
+        {
+          "TargetOrgComponentNames": "[]"
+        },
+        {
+          "MissingComponents": "[ChangePassword, SiteTemplate, InMaintenance, StdExceptionTemplate, FileNotFound, SiteRegister, AnswersHome, CommunitiesSelfReg, ForgotPassword, Exception, IdeasHome, ForgotPasswordConfirm, BandwidthExceeded, CommunitiesLogin, MyProfilePage, CommunitiesTemplate, CommunitiesSelfRegConfirm, SiteLogin, CommunitiesLanding, Unauthorized, SiteRegisterConfirm, UnderConstruction]"
+        },
+        {
+          "MatchingComponents": "[]"
+        }
+      ],
+      "TotalRecords": 6
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "ApexTrigger"
+        },
+        {
+          "SourceOrgId": "00Df2000000BoLSEA0"
+        },
+        {
+          "SourceOrgComponentNames": "[HelloWorldTrigger, HelloWorldTrigger_Campaign, AccountDeletion]"
+        },
+        {
+          "TargetOrgId": "00D2v000000QZ7MEAW"
+        },
+        {
+          "TargetOrgComponentNames": "[]"
+        },
+        {
+          "MissingComponents": "[AccountDeletion, HelloWorldTrigger_Campaign, HelloWorldTrigger]"
+        },
+        {
+          "MatchingComponents": "[]"
+        }
+      ],
+      "TotalRecords": 6
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "CustomObject"
+        },
+        {
+          "SourceOrgId": "00Df2000000BoLSEA0"
+        },
+        {
+          "SourceOrgComponentNames": "[Fund, Sector, TestObject, Knowledge]"
+        },
+        {
+          "TargetOrgId": "00D2v000000QZ7MEAW"
+        },
+        {
+          "TargetOrgComponentNames": "[Parameter, Test_Case_Execution, Test_Suite_Aggregation, Test_Suite_Execution]"
+        },
+        {
+          "MissingComponents": "[Fund, Sector, Parameter, Test_Case_Execution, TestObject, Test_Suite_Execution, Knowledge, Test_Suite_Aggregation]"
+        },
+        {
+          "MatchingComponents": "[]"
+        }
+      ],
+      "TotalRecords": 6
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "Profile"
+        },
+        {
+          "SourceOrgId": "00Df2000000BoLSEA0"
+        },
+        {
+          "SourceOrgComponentNames": "[Minimum Access - Salesforce, Standard Guest, Category 1 Biking Profile, Cloud Kicks Profile, Ursa Major Profile, Ursa Major Customer Account Portal Profile, System Administrator, Chatter Free User, Analytics Cloud Integration User, Analytics Cloud Security User, Standard Platform User, Customer Community Login User, Cross Org Data Proxy User, Authenticated Website, Work.com Only User, Customer Portal Manager Custom, Identity User, Customer Community Plus User, Silver Partner User, High Volume Customer Portal, Gold Partner User, Customer Portal Manager Standard, Force.com - App Subscription User, Customer Community Plus Login User, Partner App Subscription User, External Identity User, Partner Community User, Partner Community Login User, Customer Community User, Force.com - Free User, Chatter Moderator User, Chatter External User, High Volume Customer Portal User, Authenticated Website, Solution Manager, Read Only, Custom: Sales Profile, Custom: Marketing Profile, Custom: Support Profile, Marketing User, Contract Manager, Standard User, CPQ Integration User]"
+        },
+        {
+          "TargetOrgId": "00D2v000000QZ7MEAW"
+        },
+        {
+          "TargetOrgComponentNames": "[System Administrator, Chatter Free User, Analytics Cloud Integration User, Analytics Cloud Security User, Standard Platform User, Customer Community Login User, Cross Org Data Proxy User, Authenticated Website, Work.com Only User, Customer Portal Manager Custom, Identity User, Customer Community Plus User, Silver Partner User, High Volume Customer Portal, Gold Partner User, Customer Portal Manager Standard, Force.com - App Subscription User, Customer Community Plus Login User, Partner App Subscription User, External Identity User, Partner Community User, Partner Community Login User, Customer Community User, Force.com - Free User, Chatter Moderator User, Chatter External User, High Volume Customer Portal User, Authenticated Website, Solution Manager, Read Only, Custom: Sales Profile, Custom: Marketing Profile, Custom: Support Profile, Marketing User, Contract Manager, Standard User, Minimum Access - Salesforce]"
+        },
+        {
+          "MissingComponents": "[Ursa Major Profile, Cloud Kicks Profile, Standard Guest, Ursa Major Customer Account Portal Profile, Category 1 Biking Profile, CPQ Integration User]"
+        },
+        {
+          "MatchingComponents": "[Customer Community Plus Login User, Analytics Cloud Integration User, High Volume Customer Portal User, Work.com Only User, Marketing User, Cross Org Data Proxy User, External Identity User, Chatter External User, Custom: Marketing Profile, Minimum Access - Salesforce, Identity User, High Volume Customer Portal, Standard Platform User, Contract Manager, Partner Community Login User, Solution Manager, Customer Community Plus User, Standard User, Partner Community User, Force.com - App Subscription User, Gold Partner User, Chatter Moderator User, Chatter Free User, Customer Community Login User, Customer Portal Manager Standard, Analytics Cloud Security User, Silver Partner User, Partner App Subscription User, System Administrator, Authenticated Website, Authenticated Website, Customer Community User, Custom: Support Profile, Force.com - Free User, Customer Portal Manager Custom, Read Only, Custom: Sales Profile]"
+        }
+      ],
+      "TotalRecords": 6
+    }
+  ],
+  "TotalRecords": 6
+}

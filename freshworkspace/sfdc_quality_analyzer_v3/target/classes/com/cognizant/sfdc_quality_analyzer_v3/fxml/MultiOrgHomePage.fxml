@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.MultiOrgHomePage">
+   <children>
+      <Label layoutX="320.0" layoutY="22.0" prefHeight="25.0" prefWidth="258.0" text="Multi Org Impact Analysis Home Page View" textAlignment="CENTER" />
+      <Button id="MultiOrgAnalysisSummaryPageButton" fx:id="MultiOrgAnalysisSummaryPageButton" layoutX="628.0" layoutY="634.0" mnemonicParsing="false" onAction="#switchToMultiOrgAnalysisSummaryPage" prefHeight="51.0" prefWidth="258.0" text="Go to Analysis Summary Page" textAlignment="CENTER" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="46.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-automation.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <AnchorPane layoutX="14.0" layoutY="472.0" prefHeight="126.0" prefWidth="872.0">
+         <children>
+            <Button disable="true" layoutX="268.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="308.0" text="Select Impact Analysis Type You want to perform :-" />
+            <Separator layoutX="40.0" layoutY="16.0" prefHeight="3.0" prefWidth="214.0" />
+            <Separator layoutX="595.0" layoutY="16.0" prefHeight="3.0" prefWidth="214.0" />
+            <RadioButton id="FirstRadioButton" fx:id="FirstRadioButton" layoutX="227.0" layoutY="41.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="591.0" text="Find Missing Components of Specific Components Type B/w Source and Target Org" />
+            <RadioButton id="SecondRadioButton" fx:id="SecondRadioButton" layoutX="227.0" layoutY="74.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="591.0" text="Find All Missing Components B/w Source and Target Org" />
+            <Separator layoutX="35.0" layoutY="114.0" prefHeight="3.0" prefWidth="779.0" />
+            <ImageView fitHeight="86.0" fitWidth="88.0" layoutX="48.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-light-automation.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button id="SourceOrgApexOrgWideCoverageDetailsButton" fx:id="SourceOrgApexOrgWideCoverageDetailsButton" layoutX="308.0" layoutY="417.0" mnemonicParsing="false" onAction="#SourceOrgApexOrgWideCoverageDetails" prefHeight="33.0" prefWidth="135.0" text="See Details">
+         <graphic>
+            <ImageView fitHeight="16.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-light-automation.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="HomeButton" layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="PreviousPageButton" layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="40.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="780.0" layoutY="6.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="SourceOrgSecurityHealthCheckDetailsButton" fx:id="SourceOrgSecurityHealthCheckDetailsButton" layoutX="308.0" layoutY="336.0" mnemonicParsing="false" onAction="#SourceOrgSecurityHealthCheckDetails" prefHeight="33.0" prefWidth="135.0" text="See Details">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-light-automation.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane layoutX="497.0" layoutY="69.0" prefHeight="253.0" prefWidth="387.0">
+         <children>
+            <Button disable="true" layoutX="43.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="308.0" text="Basic Info about Target Environment" />
+            <Separator layoutX="20.0" layoutY="67.0" prefHeight="3.0" prefWidth="348.0" />
+            <Separator layoutX="22.0" layoutY="100.0" prefHeight="3.0" prefWidth="348.0" />
+            <Separator layoutX="22.0" layoutY="134.0" prefHeight="3.0" prefWidth="348.0" />
+            <Separator layoutX="23.0" layoutY="168.0" prefHeight="3.0" prefWidth="348.0" />
+            <Separator layoutX="23.0" layoutY="203.0" prefHeight="3.0" prefWidth="348.0" />
+            <Separator layoutX="25.0" layoutY="236.0" prefHeight="3.0" prefWidth="348.0" />
+            <Label id="TargetOrganizationEdition" fx:id="TargetOrganizationEdition" layoutX="24.0" layoutY="105.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="TargetOrganizationID" fx:id="TargetOrganizationID" layoutX="24.0" layoutY="73.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="TargetEndpointURL" fx:id="TargetEndpointURL" layoutX="23.0" layoutY="139.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="TargetIsSandbox" fx:id="TargetIsSandbox" layoutX="24.0" layoutY="174.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="TargetOrganizationName" fx:id="TargetOrganizationName" layoutX="24.0" layoutY="208.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="TargetSalesforceUserName" fx:id="TargetSalesforceUserName" layoutX="24.0" layoutY="39.0" prefHeight="25.0" prefWidth="348.0" />
+         </children>
+      </AnchorPane>
+      <Button id="TargetOrgSecurityHealthCheckDetailsButton" fx:id="TargetOrgSecurityHealthCheckDetailsButton" layoutX="757.0" layoutY="336.0" mnemonicParsing="false" onAction="#TargetOrgSecurityHealthCheckDetails" prefHeight="33.0" prefWidth="135.0" text="See Details">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-light-automation.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="TargetOrgApexOrgWideCoverageDetailsButton" fx:id="TargetOrgApexOrgWideCoverageDetailsButton" layoutX="756.0" layoutY="412.0" mnemonicParsing="false" onAction="#TargetOrgApexOrgWideCoverageDetails" prefHeight="33.0" prefWidth="135.0" text="See Details">
+         <graphic>
+            <ImageView fitHeight="16.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-light-automation.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Separator layoutX="471.0" layoutY="73.0" orientation="VERTICAL" prefHeight="350.0" prefWidth="3.0" />
+      <AnchorPane layoutX="31.0" layoutY="73.0" prefHeight="253.0" prefWidth="387.0">
+         <children>
+            <Button disable="true" layoutX="43.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="308.0" text="Basic Info about Source Environment" />
+            <Separator layoutX="20.0" layoutY="67.0" prefHeight="3.0" prefWidth="355.0" />
+            <Separator layoutX="20.0" layoutY="100.0" prefHeight="3.0" prefWidth="355.0" />
+            <Separator layoutX="20.0" layoutY="134.0" prefHeight="3.0" prefWidth="355.0" />
+            <Separator layoutX="21.0" layoutY="168.0" prefHeight="3.0" prefWidth="355.0" />
+            <Separator layoutX="21.0" layoutY="203.0" prefHeight="3.0" prefWidth="355.0" />
+            <Separator layoutX="22.0" layoutY="236.0" prefHeight="3.0" prefWidth="355.0" />
+            <Label id="SourceOrganizationEdition" fx:id="SourceOrganizationEdition" layoutX="24.0" layoutY="105.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="SourceOrganizationID" fx:id="SourceOrganizationID" layoutX="24.0" layoutY="73.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="SourceEndpointURL" fx:id="SourceEndpointURL" layoutX="23.0" layoutY="139.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="SourceIsSandbox" fx:id="SourceIsSandbox" layoutX="24.0" layoutY="174.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="SourceOrganizationName" fx:id="SourceOrganizationName" layoutX="24.0" layoutY="208.0" prefHeight="25.0" prefWidth="348.0" />
+            <Label id="SourceSalesforceUserName" fx:id="SourceSalesforceUserName" layoutX="24.0" layoutY="39.0" prefHeight="25.0" prefWidth="348.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="10.0" layoutY="324.0" prefHeight="54.0" prefWidth="174.0" text="Source Org Security Health Check Score : " textAlignment="CENTER" wrapText="true" />
+      <Separator layoutX="190.0" layoutY="380.0" prefHeight="3.0" prefWidth="108.0" />
+      <Label id="SourceSecHealthCheckScoreLabel" fx:id="SourceSecHealthCheckScoreLabel" layoutX="187.0" layoutY="321.0" prefHeight="54.0" prefWidth="115.0" />
+      <Label layoutX="5.0" layoutY="389.0" prefHeight="69.0" prefWidth="174.0" text="Source Org Apex Org Wide Code Coverage Score : " textAlignment="CENTER" wrapText="true" />
+      <Label id="SourceApexOrgWideCodeCoverageScoreLabel" fx:id="SourceApexOrgWideCodeCoverageScoreLabel" layoutX="187.0" layoutY="404.0" prefHeight="54.0" prefWidth="115.0" />
+      <Separator layoutX="189.0" layoutY="461.0" prefHeight="3.0" prefWidth="108.0" />
+      <Label layoutX="462.0" layoutY="313.0" prefHeight="69.0" prefWidth="174.0" text="Source Org Security Health Check Score : " textAlignment="CENTER" wrapText="true" />
+      <Label id="TargetSecHealthCheckScoreLabel" fx:id="TargetSecHealthCheckScoreLabel" layoutX="638.0" layoutY="320.0" prefHeight="54.0" prefWidth="115.0" />
+      <Separator layoutX="637.0" layoutY="379.0" prefHeight="3.0" prefWidth="108.0" />
+      <Label id="TargetApexOrgWideCodeCoverageScoreLabel" fx:id="TargetApexOrgWideCodeCoverageScoreLabel" layoutX="637.0" layoutY="402.0" prefHeight="54.0" prefWidth="115.0" />
+      <Separator layoutX="641.0" layoutY="459.0" prefHeight="3.0" prefWidth="108.0" />
+      <Label layoutX="465.0" layoutY="386.0" prefHeight="69.0" prefWidth="174.0" text="Source Org Apex Org Wide Code Coverage Score : " textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

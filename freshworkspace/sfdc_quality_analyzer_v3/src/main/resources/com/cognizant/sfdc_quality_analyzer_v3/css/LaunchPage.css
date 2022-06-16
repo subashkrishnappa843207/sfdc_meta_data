@@ -1,0 +1,11 @@
+.welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: '"Norms",Helvetica,Arial,sans-serif';
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#ToolLaunchPageLabel .label {
+   -fx-font: normal bold 20px '"Norms",Helvetica,Arial,sans-serif';
+   /*-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );*/
+	}

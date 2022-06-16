@@ -1,0 +1,163 @@
+{
+  "TotalTestCasesMapped": 4,
+  "FinalMappingDetails": [
+    {
+      "records": [
+        {
+          "ComponentType": "RecordType",
+          "ComponentName": [
+            "Test_RecordTypes",
+            "TestObjectRecordType"
+          ]
+        },
+        {
+          "ComponentType": "ApexClass",
+          "ComponentName": [
+            "SiteLoginController",
+            "SiteLoginControllerTest",
+            "SiteRegisterController"
+          ]
+        },
+        {
+          "ComponentType": "WebLink",
+          "ComponentName": [
+            "TestDisplayButton_Campaign",
+            "TestDisplayButton1",
+            "TestDisplayButtonTest"
+          ]
+        },
+        {
+          "ComponentType": "ValidationRule",
+          "ComponentName": [
+            "TestValidationRule",
+            "TestValidationRule_Account"
+          ]
+        }
+      ],
+      "TotalRecords": 4,
+      "TestCaseName": "TestCaseNumber10"
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "FieldSet",
+          "ComponentName": [
+            "Test_Object_Name",
+            "Test_Object_Details"
+          ]
+        },
+        {
+          "ComponentType": "FlexiPage",
+          "ComponentName": [
+            "DreamCapital_UtilityBar",
+            "Fund_Explorer",
+            "LightningService_UtilityBar",
+            "LightningSalesConsole_UtilityBar"
+          ]
+        },
+        {
+          "ComponentType": "CustomObject",
+          "ComponentName": [
+            "Fund"
+          ]
+        },
+        {
+          "ComponentType": "CustomTab",
+          "ComponentName": [
+            "Fund_Explorer"
+          ]
+        },
+        {
+          "ComponentType": "FieldMapping",
+          "ComponentName": [
+            "Account_Geo_Clean_Rule_for_Shipping_AddressOutputMapping",
+            "Address_Geo_Clean_Rule_for_AddressOutputMapping",
+            "Contact_Geo_Clean_Rule_for_Mailing_AddressOutputMapping"
+          ]
+        },
+        {
+          "ComponentType": "CustomField",
+          "ComponentName": [
+            "Text",
+            "TestCheckBox_Custom",
+            "Answer",
+            "Question",
+            "Active"
+          ]
+        },
+        {
+          "ComponentType": "CustomApplication",
+          "ComponentName": [
+            "ServiceConsole",
+            "AppLauncher",
+            "Community"
+          ]
+        }
+      ],
+      "TotalRecords": 7,
+      "TestCaseName": "TestCaseNumber03"
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "ApexPage",
+          "ComponentName": [
+            "ChangePassword",
+            "ForgotPassword",
+            "SiteLogin"
+          ]
+        },
+        {
+          "ComponentType": "CustomObject",
+          "ComponentName": [
+            "TestObject",
+            "Knowledge"
+          ]
+        },
+        {
+          "ComponentType": "CustomTab",
+          "ComponentName": [
+            "Fund_Explorer"
+          ]
+        },
+        {
+          "ComponentType": "ApexClass",
+          "ComponentName": [
+            "SiteRegisterControllerTest",
+            "ChangePasswordController",
+            "ChangePasswordControllerTest"
+          ]
+        },
+        {
+          "ComponentType": "CustomField",
+          "ComponentName": [
+            "TestCheckBox_Custom",
+            "Answer",
+            "Question"
+          ]
+        }
+      ],
+      "TotalRecords": 5,
+      "TestCaseName": "TestCaseNumber02"
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "ApexPage",
+          "ComponentName": [
+            "SiteLogin"
+          ]
+        },
+        {
+          "ComponentType": "ApexClass",
+          "ComponentName": [
+            "SiteRegisterController",
+            "SiteRegisterControllerTest"
+          ]
+        }
+      ],
+      "TotalRecords": 2,
+      "TestCaseName": "TestCaseNumber07"
+    }
+  ]
+}

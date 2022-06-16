@@ -1,0 +1,140 @@
+/*JAVA FX CSS - */
+.root {
+	/*-fx-background-image: url("images/cognizant-tool-background.jpg");*/
+	-fx-background-color: #242222;
+	-fx-background-size: 100% 100%;
+}
+
+#ToolLaunchPageLabel .label {
+   -fx-font: normal bold 24px '"Norms",Helvetica,Arial,sans-serif';
+   /*-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );*/
+	}
+	
+.label {
+    -fx-font-size: 13px;
+    -fx-font-family: '"Norms",Helvetica,Arial,sans-serif';
+    /*-fx-font-weight: bold;*/
+    -fx-text-fill:white;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#actiontarget {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-family: '"Norms",Helvetica,Arial,sans-serif';
+    -fx-font-weight: bold;
+    -fx-background-color: #0039A6;/*#00ad09-------linear-gradient(#61a2b1, #2A5058);*/
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+ }  
+.text {
+    -fx-font-size: 13px;
+    -fx-font-family: '"Norms",Helvetica,Arial,sans-serif';
+    /*-fx-font-weight: italic;*/
+    -fx-text-fill:white;
+    /*-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );*/
+ }
+.chart-legend { 
+	-fx-background-image: url("images/cognizant-tool-background.jpg");
+	-fx-background-color: black;
+}
+.pane {
+	-fx-background-image: url("images/cognizant-tool-background.jpg");
+	-fx-background-size: 100% 100%;
+}
+
+.web-view {
+	-fx-background-image: url("images/cognizant-tool-background.jpg");
+	-fx-background-size: 100% 100%;
+}
+
+.tab-pane .tab {
+    /*-fx-background-color: #e6e6e6;*/
+       -fx-background-color: #242222;
+}
+.tab-pane .tab:selected {
+    /*-fx-background-color: linear-gradient(#61a2b1, #2A5058);*/
+    -fx-background-color: #0039A6;
+}
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    /*-fx-text-fill: #828282;*/
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+}
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+}
+.tab-pane .tab-header-area .tab-header-background{
+    /*-fx-background-color: #e6e6e6;*/
+       -fx-background-color: #242222;
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 4px;
+}
+
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+
+.radio-button {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#ToolLaunchPageLabel {
+	-fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill:white;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.default-color0.chart-pie { -fx-pie-color: #0039A6;}
+.default-color1.chart-pie { -fx-pie-color: white; }
+
+.tree-table-view { 
+  -fx-background-color: #242222;
+}
+
+.tree-table-cell {
+    -fx-background-color: #242222;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+.tree-table-row-cell {
+    -fx-background-color: -fx-table-cell-border-color, -fx-control-inner-background;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-text-fill: -fx-text-inner-color;
+}
+.tree-table-row-cell:selected {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-focus-color;
+    -fx-background-insets: 0, 1, 2;
+}
+
+.tree-table-row-cell:odd {
+    -fx-background-color: -fx-table-cell-border-color, derive(-fx-control-inner-background,-5%);
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.tree-table-row-cell:selected:odd {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-focus-color;
+    -fx-background-insets: 0, 1, 2;
+}

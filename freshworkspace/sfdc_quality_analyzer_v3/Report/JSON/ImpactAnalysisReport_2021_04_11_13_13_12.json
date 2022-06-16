@@ -1,0 +1,166 @@
+{
+  "FinalImpactDetails": [
+    [
+      {
+        "ComponentType": "ApexClass"
+      },
+      {
+        "SourceOrgId": "00Df2000000BoLSEA0"
+      },
+      {
+        "SourceOrgComponentNames": "[SiteLoginController, SiteLoginControllerTest, SiteRegisterController, SiteRegisterControllerTest, ChangePasswordController, ChangePasswordControllerTest, ForgotPasswordController, ForgotPasswordControllerTest, CommunitiesSelfRegControllerTest, CommunitiesSelfRegConfirmController, CommunitiesSelfRegConfirmControllerTest, LightningSelfRegisterController, LightningForgotPasswordController, LightningLoginFormController, LightningLoginFormControllerTest, MyProfilePageController, MyProfilePageControllerTest, CommunitiesLoginController, CommunitiesLoginControllerTest, CommunitiesLandingController, CommunitiesLandingControllerTest, CommunitiesSelfRegController, LightningForgotPasswordControllerTest, LightningSelfRegisterControllerTest, TaskUtilTest, TaskUtil, TestAccountDeletion, TemperatureConverterTest, TemperatureConverter, FundController, FundControllerTest]"
+      },
+      {
+        "TargetOrgId": "00D2v000000QZ7MEAW"
+      },
+      {
+        "TargetOrgComponentNames": "[CallBatchController, TestSuiteAggregationBatch, TestSuiteAggregationBatch_Test]"
+      },
+      {
+        "MissingComponents": "[LightningSelfRegisterController, CommunitiesSelfRegConfirmController, TemperatureConverterTest, TestSuiteAggregationBatch_Test, SiteLoginControllerTest, CommunitiesSelfRegController, SiteRegisterControllerTest, ForgotPasswordControllerTest, TestSuiteAggregationBatch, FundControllerTest, CommunitiesSelfRegConfirmControllerTest, MyProfilePageController, LightningLoginFormControllerTest, LightningForgotPasswordControllerTest, ChangePasswordControllerTest, TaskUtilTest, TestAccountDeletion, CommunitiesLoginController, CommunitiesSelfRegControllerTest, LightningLoginFormController, MyProfilePageControllerTest, CommunitiesLoginControllerTest, FundController, CommunitiesLandingController, ForgotPasswordController, LightningSelfRegisterControllerTest, TemperatureConverter, SiteLoginController, CallBatchController, TaskUtil, LightningForgotPasswordController, CommunitiesLandingControllerTest, SiteRegisterController, ChangePasswordController]"
+      },
+      {
+        "MatchingComponents": "[]"
+      }
+    ],
+    [
+      {
+        "ComponentType": "ApexComponent"
+      },
+      {
+        "SourceOrgId": "00Df2000000BoLSEA0"
+      },
+      {
+        "SourceOrgComponentNames": "[SiteFooter, SiteHeader, SiteLogin, SitePoweredBy]"
+      },
+      {
+        "TargetOrgId": "00D2v000000QZ7MEAW"
+      },
+      {
+        "TargetOrgComponentNames": "[]"
+      },
+      {
+        "MissingComponents": "[SiteFooter, SiteLogin, SitePoweredBy, SiteHeader]"
+      },
+      {
+        "MatchingComponents": "[]"
+      }
+    ],
+    [
+      {
+        "ComponentType": "ApexPage"
+      },
+      {
+        "SourceOrgId": "00Df2000000BoLSEA0"
+      },
+      {
+        "SourceOrgComponentNames": "[SiteRegister, ChangePassword, ForgotPassword, SiteLogin, ForgotPasswordConfirm, SiteRegisterConfirm, MyProfilePage, StdExceptionTemplate, SiteTemplate, FileNotFound, BandwidthExceeded, Exception, InMaintenance, Unauthorized, UnderConstruction, IdeasHome, AnswersHome, CommunitiesTemplate, CommunitiesLogin, CommunitiesLanding, CommunitiesSelfReg, CommunitiesSelfRegConfirm]"
+      },
+      {
+        "TargetOrgId": "00D2v000000QZ7MEAW"
+      },
+      {
+        "TargetOrgComponentNames": "[]"
+      },
+      {
+        "MissingComponents": "[ChangePassword, SiteTemplate, InMaintenance, StdExceptionTemplate, FileNotFound, SiteRegister, AnswersHome, CommunitiesSelfReg, ForgotPassword, Exception, IdeasHome, ForgotPasswordConfirm, BandwidthExceeded, CommunitiesLogin, MyProfilePage, CommunitiesTemplate, CommunitiesSelfRegConfirm, SiteLogin, CommunitiesLanding, Unauthorized, SiteRegisterConfirm, UnderConstruction]"
+      },
+      {
+        "MatchingComponents": "[]"
+      }
+    ],
+    [
+      {
+        "ComponentType": "ApexTrigger"
+      },
+      {
+        "SourceOrgId": "00Df2000000BoLSEA0"
+      },
+      {
+        "SourceOrgComponentNames": "[HelloWorldTrigger, HelloWorldTrigger_Campaign, AccountDeletion]"
+      },
+      {
+        "TargetOrgId": "00D2v000000QZ7MEAW"
+      },
+      {
+        "TargetOrgComponentNames": "[]"
+      },
+      {
+        "MissingComponents": "[AccountDeletion, HelloWorldTrigger_Campaign, HelloWorldTrigger]"
+      },
+      {
+        "MatchingComponents": "[]"
+      }
+    ],
+    [
+      {
+        "ComponentType": "CompactLayout"
+      },
+      {
+        "SourceOrgId": "00Df2000000BoLSEA0"
+      },
+      {
+        "SourceOrgComponentNames": "[]"
+      },
+      {
+        "TargetOrgId": "00D2v000000QZ7MEAW"
+      },
+      {
+        "TargetOrgComponentNames": "[]"
+      },
+      {
+        "MissingComponents": "[]"
+      },
+      {
+        "MatchingComponents": "[]"
+      }
+    ],
+    [
+      {
+        "ComponentType": "CustomField"
+      },
+      {
+        "SourceOrgId": "00Df2000000BoLSEA0"
+      },
+      {
+        "SourceOrgComponentNames": "[Text, TestCheckBox_Custom, Answer, Question, Active, CustomerPriority, NumberofLocations, SLA, SLAExpirationDate, SLASerialNumber, UpsellOpportunity, EngineeringReqNumber, PotentialLiability, Product, SLAViolation, Languages, Level, CurrentGenerators, NumberofLocations, Primary, ProductInterest, SICCode, CurrentGenerators, DeliveryInstallationStatus, MainCompetitors, OrderNumber, TrackingNumber, OrigGoalId, OrigMetricId, TestImpactAnalyzer, Sector, Abbreviation, Asset_Class, Five_Year_Return, One_Year_Return, Rating, Two_Year_Return, YTD_Return, Sector_Id, Impact_Analyzer_Compatible, Custom_Object, TestRevenue]"
+      },
+      {
+        "TargetOrgId": "00D2v000000QZ7MEAW"
+      },
+      {
+        "TargetOrgComponentNames": "[Application_Name, Browser, Build_Version, Environment, Exclude_from_Dashboard, Notes, Release_Name, Screen_Resolution, Sprint_Name, Target_Release_Date, Test_Suite_Name, Business_Process_Name, Start_Date_Time, End_Date_Time, Duration_Mins, Is_Automated_Execution, Module_Name, Result_Details, Execution_Status, Test_Case_Name, Test_Suite_Execution, Total_TCs, Total_Automated_TCs, Total_TCs_Passed, Total_TCs_Failed, Total_TCs_Not_Run, Total_TCs_Blocked, Total_TCs_Skipped, Total_TCs_Executed, Pass_Rate, Fail_Rate, Automation_Execution_Percentage, Total_Duration_in_Mins, Total_Automation_Duration_in_Mins, Application_Name, Automation_Execution_Percentage, Browser, Build_Version, Environment, Exclude_from_Dashboard, Fail_Rate, Notes, Pass_Rate, Release_Name, Screen_Resolution, Sprint_Name, Target_Release_Date, Test_Suite_ID, Test_Suite_Name, Total_Automated_TCs, Total_Automation_Duration_in_Mins, Total_Duration_in_Mins, Total_TCs, Total_TCs_Blocked, Total_TCs_Executed, Total_TCs_Failed, Total_TCs_Not_Run, Total_TCs_Passed, Total_TCs_Skipped, Hospitals, Number_of_Steps_Failed, Total_Number_of_Steps, Active, CustomerPriority, NumberofLocations, SLA, SLAExpirationDate, SLASerialNumber, UpsellOpportunity, EngineeringReqNumber, PotentialLiability, Product, SLAViolation, Languages, Level, CurrentGenerators, NumberofLocations, Primary, ProductInterest, SICCode, CurrentGenerators, DeliveryInstallationStatus, MainCompetitors, OrderNumber, TrackingNumber, OrigGoalId, OrigMetricId, Number_of_Steps_Passed, Browser_Used, Automation_Tool, Param1, Multi_Opp_Test, Locality, Operating_System, Skills]"
+      },
+      {
+        "MissingComponents": "[Abbreviation, Browser_Used, Five_Year_Return, One_Year_Return, Result_Details, Pass_Rate, Pass_Rate, Release_Name, Release_Name, Total_TCs_Failed, Total_TCs_Failed, TestRevenue, Total_Number_of_Steps, Locality, Impact_Analyzer_Compatible, YTD_Return, Custom_Object, Multi_Opp_Test, TestImpactAnalyzer, Total_Duration_in_Mins, Total_Duration_in_Mins, Hospitals, Automation_Tool, Business_Process_Name, Target_Release_Date, Target_Release_Date, Environment, Environment, Test_Suite_ID, Total_TCs_Not_Run, Total_TCs_Not_Run, Browser, Browser, Total_Automation_Duration_in_Mins, Total_Automation_Duration_in_Mins, Fail_Rate, Fail_Rate, Duration_Mins, Total_TCs, Total_TCs, Rating, Sector_Id, Sprint_Name, Sprint_Name, Automation_Execution_Percentage, Automation_Execution_Percentage, Number_of_Steps_Failed, Number_of_Steps_Passed, Exclude_from_Dashboard, Exclude_from_Dashboard, Start_Date_Time, Skills, Screen_Resolution, Screen_Resolution, Total_Automated_TCs, Total_Automated_TCs, Total_TCs_Passed, Total_TCs_Passed, Question, Asset_Class, Test_Suite_Execution, Notes, Notes, Module_Name, Application_Name, Application_Name, Sector, TestCheckBox_Custom, Test_Suite_Name, Test_Suite_Name, Test_Case_Name, Text, Param1, Is_Automated_Execution, Execution_Status, End_Date_Time, Total_TCs_Blocked, Total_TCs_Blocked, Operating_System, Answer, Total_TCs_Skipped, Total_TCs_Skipped, Two_Year_Return, Build_Version, Build_Version, Total_TCs_Executed, Total_TCs_Executed]"
+      },
+      {
+        "MatchingComponents": "[SLA, Product, Languages, OrderNumber, SLASerialNumber, Primary, PotentialLiability, SLAExpirationDate, OrigMetricId, NumberofLocations, NumberofLocations, Active, MainCompetitors, Level, SICCode, TrackingNumber, ProductInterest, EngineeringReqNumber, SLAViolation, OrigGoalId, UpsellOpportunity, DeliveryInstallationStatus, CustomerPriority, CurrentGenerators, CurrentGenerators]"
+      }
+    ],
+    [
+      {
+        "ComponentType": "Profile"
+      },
+      {
+        "SourceOrgId": "00Df2000000BoLSEA0"
+      },
+      {
+        "SourceOrgComponentNames": "[Minimum Access - Salesforce, Standard Guest, Category 1 Biking Profile, Cloud Kicks Profile, Ursa Major Profile, Ursa Major Customer Account Portal Profile, System Administrator, Chatter Free User, Analytics Cloud Integration User, Analytics Cloud Security User, Standard Platform User, Customer Community Login User, Cross Org Data Proxy User, Authenticated Website, Work.com Only User, Customer Portal Manager Custom, Identity User, Customer Community Plus User, Silver Partner User, High Volume Customer Portal, Gold Partner User, Customer Portal Manager Standard, Force.com - App Subscription User, Customer Community Plus Login User, Partner App Subscription User, External Identity User, Partner Community User, Partner Community Login User, Customer Community User, Force.com - Free User, Chatter Moderator User, Chatter External User, High Volume Customer Portal User, Authenticated Website, Solution Manager, Read Only, Custom: Sales Profile, Custom: Marketing Profile, Custom: Support Profile, Marketing User, Contract Manager, Standard User, CPQ Integration User]"
+      },
+      {
+        "TargetOrgId": "00D2v000000QZ7MEAW"
+      },
+      {
+        "TargetOrgComponentNames": "[System Administrator, Chatter Free User, Analytics Cloud Integration User, Analytics Cloud Security User, Standard Platform User, Customer Community Login User, Cross Org Data Proxy User, Authenticated Website, Work.com Only User, Customer Portal Manager Custom, Identity User, Customer Community Plus User, Silver Partner User, High Volume Customer Portal, Gold Partner User, Customer Portal Manager Standard, Force.com - App Subscription User, Customer Community Plus Login User, Partner App Subscription User, External Identity User, Partner Community User, Partner Community Login User, Customer Community User, Force.com - Free User, Chatter Moderator User, Chatter External User, High Volume Customer Portal User, Authenticated Website, Solution Manager, Read Only, Custom: Sales Profile, Custom: Marketing Profile, Custom: Support Profile, Marketing User, Contract Manager, Standard User, Minimum Access - Salesforce]"
+      },
+      {
+        "MissingComponents": "[Ursa Major Profile, Cloud Kicks Profile, Standard Guest, Ursa Major Customer Account Portal Profile, Category 1 Biking Profile, CPQ Integration User]"
+      },
+      {
+        "MatchingComponents": "[Customer Community Plus Login User, Analytics Cloud Integration User, High Volume Customer Portal User, Work.com Only User, Marketing User, Cross Org Data Proxy User, External Identity User, Chatter External User, Custom: Marketing Profile, Minimum Access - Salesforce, Identity User, High Volume Customer Portal, Standard Platform User, Contract Manager, Partner Community Login User, Solution Manager, Customer Community Plus User, Standard User, Partner Community User, Force.com - App Subscription User, Gold Partner User, Chatter Moderator User, Chatter Free User, Customer Community Login User, Customer Portal Manager Standard, Analytics Cloud Security User, Silver Partner User, Partner App Subscription User, System Administrator, Authenticated Website, Authenticated Website, Customer Community User, Custom: Support Profile, Force.com - Free User, Customer Portal Manager Custom, Read Only, Custom: Sales Profile]"
+      }
+    ]
+  ],
+  "TotalRecords": 7
+}

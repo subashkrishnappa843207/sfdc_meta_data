@@ -1,0 +1,21 @@
+{
+  "DownloadedSOQLResults": [
+    {
+      "ParentId": "null",
+      "BillingStreet": "null",
+      "BillingCity": "null",
+      "RecordTypeId": "0125x000000E7fqAAC",
+      "Id": "0015x000028fYJEAA2",
+      "Name": "Dragbot Bulk Company"
+    },
+    {
+      "ParentId": "null",
+      "BillingStreet": "888 N Euclid \nHallis Center, Room 501\nTucson, AZ 85721\nUnited States",
+      "BillingCity": "Tucson",
+      "RecordTypeId": "null",
+      "Id": "001f200001cQKsAAAW",
+      "Name": "University of Arizona"
+    }
+  ],
+  "TotalRecords": 2
+}

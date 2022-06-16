@@ -1,0 +1,115 @@
+{
+  "FinalImpactDetails": [
+    {
+      "ComponentType": "PermissionSet",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Commerce Admin",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "CRM User",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Shopper",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Buyer",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Salesforce Console User",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Service Cloud User",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Buyer Manager",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Security Center Integration User",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Merchandiser",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Sales Cloud User",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Standard Einstein Activity Capture",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        },
+        {
+          "LastModifiedDate": "2021-09-10T08:10:41.000+0000",
+          "ComponentName": "Salesforce CMS Integration Admin",
+          "LastModifiedByID": "005f2000009EYIyAAO"
+        }
+      ],
+      "TotalRecords": 12
+    },
+    {
+      "ComponentType": "WorkflowRule",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-09T01:49:13.000+0000",
+          "ComponentName": "01Q5x000000KfeoEAC",
+          "LastModifiedByID": "005f2000009BuHHAA0"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "TraceFlag",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-09T16:24:15.000+0000",
+          "ComponentName": "7tff2000002gSlSAAU",
+          "LastModifiedByID": "005f2000009BuHHAA0"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "FlowDefinition",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-09T16:21:12.000+0000",
+          "ComponentName": "dsfsdgfdsfgdfg",
+          "LastModifiedByID": "005f2000009BuHHAA0"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "Flow",
+      "records": [
+        {
+          "LastModifiedDate": "2021-09-09T16:21:12.000+0000",
+          "ComponentName": "dsfsdgfdsfgdfg",
+          "LastModifiedByID": "005f2000009BuHHAA0"
+        }
+      ],
+      "TotalRecords": 1
+    }
+  ],
+  "TotalRecords": 5
+}

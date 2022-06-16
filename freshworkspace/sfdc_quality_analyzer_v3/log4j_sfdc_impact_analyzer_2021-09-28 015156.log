@@ -1,0 +1,377 @@
+2021-09-28 01:51:58 INFO  AppLauncherPage:34 - Switching to App Home Page
+2021-09-28 01:51:58 INFO  AppHomePage:36 - Switching to SFDC Test Impact Analysis Page
+2021-09-28 01:51:59 INFO  SFDCTestImpactAnalysisPage:17 - Moving to Find Impacted Test scripts vs SFDC component page
+2021-09-28 01:52:01 INFO  FindImpactedTestScriptVsSFDCComponents:203 - Implement code to Choose Impacted Salesforce Component File!!!
+2021-09-28 01:52:07 INFO  FindImpactedTestScriptVsSFDCComponents:220 - Implement code to Choose Automation Test Script Mapping File!!!
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:102 - Placeholder method to Find Impacted Test Scripts
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:121 - Placeholder method to Find Impacted Test Scripts
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:276 - TestCaseMappingFilePath : C:\Users\porya\freshworkspace\sfdc_quality_analyzer_v3\Mapping\JSON\Target\FinalMappingFile_2021_04_14_20_46_18.json
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb03
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ChangePassword"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AssignmentRule
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Standard"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb02
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : Layout
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Associated Location Layout"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterController"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb01
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Details"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ForgotPasswordController"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLogin"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber08
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AuraDefinition
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["0Abf2000000NPILCA4","0Abf2000000NPILCA4","0Abf2000000NPILCA4","0Abf2000000NPIMCA4"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController","SiteRegisterControllerTest","ChangePasswordController","ForgotPasswordController"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexTrigger
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["HelloWorldTrigger_Campaign"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteHeader","SiteLogin"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : WebLink
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestDisplayButton_Campaign","TestDisplayButton1"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber07
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLogin"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterController","SiteRegisterControllerTest"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber09
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["LightningService_UtilityBar","LightningSalesConsole_UtilityBar"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumberDeb11
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber10
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : RecordType
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_RecordTypes","TestObjectRecordType"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : WebLink
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestDisplayButton_Campaign","TestDisplayButton1","TestDisplayButtonTest"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ValidationRule
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestValidationRule","TestValidationRule_Account"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = GeneralEngineering01
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name","Test_Object_Details"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["DreamCapital_UtilityBar","Fund_Explorer"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestCheckBox_Custom","Answer","Question"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber03
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name","Test_Object_Details"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["DreamCapital_UtilityBar","Fund_Explorer","LightningService_UtilityBar","LightningSalesConsole_UtilityBar"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomObject
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomTab
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund_Explorer"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldMapping
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Account_Geo_Clean_Rule_for_Shipping_AddressOutputMapping","Address_Geo_Clean_Rule_for_AddressOutputMapping","Contact_Geo_Clean_Rule_for_Mailing_AddressOutputMapping"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Text","TestCheckBox_Custom","Answer","Question","Active"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomApplication
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ServiceConsole","AppLauncher","Community"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber02
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ChangePassword","ForgotPassword","SiteLogin"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomObject
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestObject","Knowledge"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomTab
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund_Explorer"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterControllerTest","ChangePasswordController","ChangePasswordControllerTest"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestCheckBox_Custom","Answer","Question"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber01
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AssignmentRule
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Standard"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AuraDefinition
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["0Ab5x000000NQUxCAO","0Ab5x000000NQUyCAO","0Ab5x000000NQUzCAO"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexTrigger
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["HelloWorldTrigger","HelloWorldTrigger_Campaign"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteFooter","SiteHeader","SiteLogin","SitePoweredBy"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCase001
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AssignmentRule
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Standard"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["CallBatchController","TestSuiteAggregationBatch"]
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:306 - *******************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:307 - {TestDeb03={ApexPage=[ChangePassword], AssignmentRule=[Standard]}, TestDeb02={FieldSet=[Test_Object_Name], Layout=[Associated Location Layout], ApexClass=[SiteRegisterController]}, TestDeb01={FieldSet=[Test_Object_Details], ApexClass=[ForgotPasswordController], ApexComponent=[SiteLogin]}, TestCaseNumber08={AuraDefinition=[0Abf2000000NPILCA4, 0Abf2000000NPILCA4, 0Abf2000000NPILCA4, 0Abf2000000NPIMCA4], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController, SiteRegisterControllerTest, ChangePasswordController, ForgotPasswordController], ApexTrigger=[HelloWorldTrigger_Campaign], ApexComponent=[SiteHeader, SiteLogin], WebLink=[TestDisplayButton_Campaign, TestDisplayButton1]}, TestCaseNumber07={ApexPage=[SiteLogin], ApexClass=[SiteRegisterController, SiteRegisterControllerTest]}, TestCaseNumber09={FlexiPage=[LightningService_UtilityBar, LightningSalesConsole_UtilityBar], ApexClass=[SiteLoginController, SiteLoginControllerTest]}, TestCaseNumberDeb11={ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController]}, TestCaseNumber10={RecordType=[Test_RecordTypes, TestObjectRecordType], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController], WebLink=[TestDisplayButton_Campaign, TestDisplayButton1, TestDisplayButtonTest], ValidationRule=[TestValidationRule, TestValidationRule_Account]}, GeneralEngineering01={FieldSet=[Test_Object_Name, Test_Object_Details], FlexiPage=[DreamCapital_UtilityBar, Fund_Explorer], CustomField=[TestCheckBox_Custom, Answer, Question]}, TestCaseNumber03={FieldSet=[Test_Object_Name, Test_Object_Details], FlexiPage=[DreamCapital_UtilityBar, Fund_Explorer, LightningService_UtilityBar, LightningSalesConsole_UtilityBar], CustomObject=[Fund], CustomTab=[Fund_Explorer], FieldMapping=[Account_Geo_Clean_Rule_for_Shipping_AddressOutputMapping, Address_Geo_Clean_Rule_for_AddressOutputMapping, Contact_Geo_Clean_Rule_for_Mailing_AddressOutputMapping], CustomField=[Text, TestCheckBox_Custom, Answer, Question, Active], CustomApplication=[ServiceConsole, AppLauncher, Community]}, TestCaseNumber02={ApexPage=[ChangePassword, ForgotPassword, SiteLogin], CustomObject=[TestObject, Knowledge], CustomTab=[Fund_Explorer], ApexClass=[SiteRegisterControllerTest, ChangePasswordController, ChangePasswordControllerTest], CustomField=[TestCheckBox_Custom, Answer, Question]}, TestCaseNumber01={AssignmentRule=[Standard], AuraDefinition=[0Ab5x000000NQUxCAO, 0Ab5x000000NQUyCAO, 0Ab5x000000NQUzCAO], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController], ApexTrigger=[HelloWorldTrigger, HelloWorldTrigger_Campaign], ApexComponent=[SiteFooter, SiteHeader, SiteLogin, SitePoweredBy]}, TestCase001={AssignmentRule=[Standard], ApexClass=[CallBatchController, TestSuiteAggregationBatch]}}
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:308 - *******************************************************************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:323 - ImpactedSalesforceComponentsJSONFilePath : C:\Users\porya\freshworkspace\sfdc_quality_analyzer_v3\Report\JSON\ImpactAnalysisReport_2021_04_11_21_14_14.json
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:333 - ComponentType : AnimationRule
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:124 - Size of Impacted Component Map : 0
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:149 - ************Final Impacted TestCase v/s SFDC Component List********************
+2021-09-28 01:52:12 INFO  FindImpactedTestScriptVsSFDCComponents:163 - *******************************************************************************
+2021-09-28 01:52:13 INFO  FindImpactedTestScriptVsSFDCComponents:220 - Implement code to Choose Automation Test Script Mapping File!!!
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:102 - Placeholder method to Find Impacted Test Scripts
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:121 - Placeholder method to Find Impacted Test Scripts
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:276 - TestCaseMappingFilePath : C:\Users\porya\freshworkspace\sfdc_quality_analyzer_v3\Mapping\JSON\Target\FinalMappingFile_2021_04_03_11_39_37.json
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumberDeb11
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber10
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : RecordType
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_RecordTypes","TestObjectRecordType"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : WebLink
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestDisplayButton_Campaign","TestDisplayButton1","TestDisplayButtonTest"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ValidationRule
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestValidationRule","TestValidationRule_Account"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = GeneralEngineering01
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name","Test_Object_Details"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["DreamCapital_UtilityBar","Fund_Explorer"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestCheckBox_Custom","Answer","Question"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber03
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name","Test_Object_Details"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["DreamCapital_UtilityBar","Fund_Explorer","LightningService_UtilityBar","LightningSalesConsole_UtilityBar"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomObject
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomTab
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund_Explorer"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldMapping
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Account_Geo_Clean_Rule_for_Shipping_AddressOutputMapping","Address_Geo_Clean_Rule_for_AddressOutputMapping","Contact_Geo_Clean_Rule_for_Mailing_AddressOutputMapping"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Text","TestCheckBox_Custom","Answer","Question","Active"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomApplication
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ServiceConsole","AppLauncher","Community"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb03
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ChangePassword"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AssignmentRule
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Standard"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber02
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ChangePassword","ForgotPassword","SiteLogin"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomObject
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestObject","Knowledge"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomTab
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund_Explorer"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterControllerTest","ChangePasswordController","ChangePasswordControllerTest"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestCheckBox_Custom","Answer","Question"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb02
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : Layout
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Associated Location Layout"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterController"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber01
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AssignmentRule
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Standard"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AuraDefinition
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["0Ab5x000000NQUxCAO","0Ab5x000000NQUyCAO","0Ab5x000000NQUzCAO"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexTrigger
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["HelloWorldTrigger","HelloWorldTrigger_Campaign"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteFooter","SiteHeader","SiteLogin","SitePoweredBy"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb01
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Details"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ForgotPasswordController"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLogin"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber08
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AuraDefinition
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["0Abf2000000NPILCA4","0Abf2000000NPILCA4","0Abf2000000NPILCA4","0Abf2000000NPIMCA4"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController","SiteRegisterControllerTest","ChangePasswordController","ForgotPasswordController"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexTrigger
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["HelloWorldTrigger_Campaign"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteHeader","SiteLogin"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : WebLink
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestDisplayButton_Campaign","TestDisplayButton1"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber07
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLogin"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterController","SiteRegisterControllerTest"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber09
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["LightningService_UtilityBar","LightningSalesConsole_UtilityBar"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest"]
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:306 - *******************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:307 - {TestCaseNumberDeb11={ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController]}, TestCaseNumber10={RecordType=[Test_RecordTypes, TestObjectRecordType], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController], WebLink=[TestDisplayButton_Campaign, TestDisplayButton1, TestDisplayButtonTest], ValidationRule=[TestValidationRule, TestValidationRule_Account]}, GeneralEngineering01={FieldSet=[Test_Object_Name, Test_Object_Details], FlexiPage=[DreamCapital_UtilityBar, Fund_Explorer], CustomField=[TestCheckBox_Custom, Answer, Question]}, TestCaseNumber03={FieldSet=[Test_Object_Name, Test_Object_Details], FlexiPage=[DreamCapital_UtilityBar, Fund_Explorer, LightningService_UtilityBar, LightningSalesConsole_UtilityBar], CustomObject=[Fund], CustomTab=[Fund_Explorer], FieldMapping=[Account_Geo_Clean_Rule_for_Shipping_AddressOutputMapping, Address_Geo_Clean_Rule_for_AddressOutputMapping, Contact_Geo_Clean_Rule_for_Mailing_AddressOutputMapping], CustomField=[Text, TestCheckBox_Custom, Answer, Question, Active], CustomApplication=[ServiceConsole, AppLauncher, Community]}, TestDeb03={ApexPage=[ChangePassword], AssignmentRule=[Standard]}, TestCaseNumber02={ApexPage=[ChangePassword, ForgotPassword, SiteLogin], CustomObject=[TestObject, Knowledge], CustomTab=[Fund_Explorer], ApexClass=[SiteRegisterControllerTest, ChangePasswordController, ChangePasswordControllerTest], CustomField=[TestCheckBox_Custom, Answer, Question]}, TestDeb02={FieldSet=[Test_Object_Name], Layout=[Associated Location Layout], ApexClass=[SiteRegisterController]}, TestCaseNumber01={AssignmentRule=[Standard], AuraDefinition=[0Ab5x000000NQUxCAO, 0Ab5x000000NQUyCAO, 0Ab5x000000NQUzCAO], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController], ApexTrigger=[HelloWorldTrigger, HelloWorldTrigger_Campaign], ApexComponent=[SiteFooter, SiteHeader, SiteLogin, SitePoweredBy]}, TestDeb01={FieldSet=[Test_Object_Details], ApexClass=[ForgotPasswordController], ApexComponent=[SiteLogin]}, TestCaseNumber08={AuraDefinition=[0Abf2000000NPILCA4, 0Abf2000000NPILCA4, 0Abf2000000NPILCA4, 0Abf2000000NPIMCA4], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController, SiteRegisterControllerTest, ChangePasswordController, ForgotPasswordController], ApexTrigger=[HelloWorldTrigger_Campaign], ApexComponent=[SiteHeader, SiteLogin], WebLink=[TestDisplayButton_Campaign, TestDisplayButton1]}, TestCaseNumber07={ApexPage=[SiteLogin], ApexClass=[SiteRegisterController, SiteRegisterControllerTest]}, TestCaseNumber09={FlexiPage=[LightningService_UtilityBar, LightningSalesConsole_UtilityBar], ApexClass=[SiteLoginController, SiteLoginControllerTest]}}
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:308 - *******************************************************************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:323 - ImpactedSalesforceComponentsJSONFilePath : C:\Users\porya\freshworkspace\sfdc_quality_analyzer_v3\Report\JSON\ImpactAnalysisReport_2021_04_11_21_14_14.json
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:333 - ComponentType : AnimationRule
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:124 - Size of Impacted Component Map : 0
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:149 - ************Final Impacted TestCase v/s SFDC Component List********************
+2021-09-28 01:52:16 INFO  FindImpactedTestScriptVsSFDCComponents:163 - *******************************************************************************
+2021-09-28 01:52:19 INFO  FindImpactedTestScriptVsSFDCComponents:78 - Placeholder method for View Details about impacted Test Scripts
+2021-09-28 01:52:19 INFO  FindImpactedTestScriptVsSFDCComponents:82 - FoundComponentsFinalMap.size() : 0
+2021-09-28 01:52:19 INFO  FindImpactedTestScriptVsSFDCComponents:94 - ************************************
+2021-09-28 01:52:34 INFO  FindImpactedTestScriptVsSFDCComponents:203 - Implement code to Choose Impacted Salesforce Component File!!!
+2021-09-28 01:52:38 INFO  FindImpactedTestScriptVsSFDCComponents:215 - You haven't selected any Impacted Salesforce Component JSON file yet!!!
+2021-09-28 01:52:38 INFO  FindImpactedTestScriptVsSFDCComponents:220 - Implement code to Choose Automation Test Script Mapping File!!!
+2021-09-28 01:52:43 INFO  FindImpactedTestScriptVsSFDCComponents:232 - You haven't selected any Automation Test Script Mapping JSON file yet!!!
+2021-09-28 01:52:43 ERROR FindImpactedTestScriptVsSFDCComponents:233 - 
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:102 - Placeholder method to Find Impacted Test Scripts
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:121 - Placeholder method to Find Impacted Test Scripts
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:276 - TestCaseMappingFilePath : C:\Users\porya\freshworkspace\sfdc_quality_analyzer_v3\Mapping\JSON\Target\FinalMappingFile_2021_04_03_11_39_37.json
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumberDeb11
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber10
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : RecordType
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_RecordTypes","TestObjectRecordType"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : WebLink
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestDisplayButton_Campaign","TestDisplayButton1","TestDisplayButtonTest"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ValidationRule
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestValidationRule","TestValidationRule_Account"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = GeneralEngineering01
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name","Test_Object_Details"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["DreamCapital_UtilityBar","Fund_Explorer"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestCheckBox_Custom","Answer","Question"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber03
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name","Test_Object_Details"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["DreamCapital_UtilityBar","Fund_Explorer","LightningService_UtilityBar","LightningSalesConsole_UtilityBar"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomObject
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomTab
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund_Explorer"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldMapping
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Account_Geo_Clean_Rule_for_Shipping_AddressOutputMapping","Address_Geo_Clean_Rule_for_AddressOutputMapping","Contact_Geo_Clean_Rule_for_Mailing_AddressOutputMapping"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Text","TestCheckBox_Custom","Answer","Question","Active"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomApplication
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ServiceConsole","AppLauncher","Community"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb03
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ChangePassword"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AssignmentRule
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Standard"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber02
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ChangePassword","ForgotPassword","SiteLogin"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomObject
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestObject","Knowledge"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomTab
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Fund_Explorer"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterControllerTest","ChangePasswordController","ChangePasswordControllerTest"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : CustomField
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestCheckBox_Custom","Answer","Question"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb02
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Name"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : Layout
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Associated Location Layout"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterController"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber01
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AssignmentRule
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Standard"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AuraDefinition
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["0Ab5x000000NQUxCAO","0Ab5x000000NQUyCAO","0Ab5x000000NQUzCAO"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexTrigger
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["HelloWorldTrigger","HelloWorldTrigger_Campaign"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteFooter","SiteHeader","SiteLogin","SitePoweredBy"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestDeb01
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FieldSet
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["Test_Object_Details"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["ForgotPasswordController"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLogin"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber08
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : AuraDefinition
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["0Abf2000000NPILCA4","0Abf2000000NPILCA4","0Abf2000000NPILCA4","0Abf2000000NPIMCA4"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest","SiteRegisterController","SiteRegisterControllerTest","ChangePasswordController","ForgotPasswordController"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexTrigger
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["HelloWorldTrigger_Campaign"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexComponent
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteHeader","SiteLogin"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : WebLink
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["TestDisplayButton_Campaign","TestDisplayButton1"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber07
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexPage
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLogin"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteRegisterController","SiteRegisterControllerTest"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:289 - Test Case Name = TestCaseNumber09
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:290 - ************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : FlexiPage
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["LightningService_UtilityBar","LightningSalesConsole_UtilityBar"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:296 - Component Type : ApexClass
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:297 - Component Names : ["SiteLoginController","SiteLoginControllerTest"]
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:306 - *******************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:307 - {TestCaseNumberDeb11={ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController]}, TestCaseNumber10={RecordType=[Test_RecordTypes, TestObjectRecordType], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController], WebLink=[TestDisplayButton_Campaign, TestDisplayButton1, TestDisplayButtonTest], ValidationRule=[TestValidationRule, TestValidationRule_Account]}, GeneralEngineering01={FieldSet=[Test_Object_Name, Test_Object_Details], FlexiPage=[DreamCapital_UtilityBar, Fund_Explorer], CustomField=[TestCheckBox_Custom, Answer, Question]}, TestCaseNumber03={FieldSet=[Test_Object_Name, Test_Object_Details], FlexiPage=[DreamCapital_UtilityBar, Fund_Explorer, LightningService_UtilityBar, LightningSalesConsole_UtilityBar], CustomObject=[Fund], CustomTab=[Fund_Explorer], FieldMapping=[Account_Geo_Clean_Rule_for_Shipping_AddressOutputMapping, Address_Geo_Clean_Rule_for_AddressOutputMapping, Contact_Geo_Clean_Rule_for_Mailing_AddressOutputMapping], CustomField=[Text, TestCheckBox_Custom, Answer, Question, Active], CustomApplication=[ServiceConsole, AppLauncher, Community]}, TestDeb03={ApexPage=[ChangePassword], AssignmentRule=[Standard]}, TestCaseNumber02={ApexPage=[ChangePassword, ForgotPassword, SiteLogin], CustomObject=[TestObject, Knowledge], CustomTab=[Fund_Explorer], ApexClass=[SiteRegisterControllerTest, ChangePasswordController, ChangePasswordControllerTest], CustomField=[TestCheckBox_Custom, Answer, Question]}, TestDeb02={FieldSet=[Test_Object_Name], Layout=[Associated Location Layout], ApexClass=[SiteRegisterController]}, TestCaseNumber01={AssignmentRule=[Standard], AuraDefinition=[0Ab5x000000NQUxCAO, 0Ab5x000000NQUyCAO, 0Ab5x000000NQUzCAO], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController], ApexTrigger=[HelloWorldTrigger, HelloWorldTrigger_Campaign], ApexComponent=[SiteFooter, SiteHeader, SiteLogin, SitePoweredBy]}, TestDeb01={FieldSet=[Test_Object_Details], ApexClass=[ForgotPasswordController], ApexComponent=[SiteLogin]}, TestCaseNumber08={AuraDefinition=[0Abf2000000NPILCA4, 0Abf2000000NPILCA4, 0Abf2000000NPILCA4, 0Abf2000000NPIMCA4], ApexClass=[SiteLoginController, SiteLoginControllerTest, SiteRegisterController, SiteRegisterControllerTest, ChangePasswordController, ForgotPasswordController], ApexTrigger=[HelloWorldTrigger_Campaign], ApexComponent=[SiteHeader, SiteLogin], WebLink=[TestDisplayButton_Campaign, TestDisplayButton1]}, TestCaseNumber07={ApexPage=[SiteLogin], ApexClass=[SiteRegisterController, SiteRegisterControllerTest]}, TestCaseNumber09={FlexiPage=[LightningService_UtilityBar, LightningSalesConsole_UtilityBar], ApexClass=[SiteLoginController, SiteLoginControllerTest]}}
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:308 - *******************************************************************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:323 - ImpactedSalesforceComponentsJSONFilePath : C:\Users\porya\freshworkspace\sfdc_quality_analyzer_v3\Report\JSON\ImpactAnalysisReport_2021_04_11_21_14_14.json
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:333 - ComponentType : AnimationRule
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:124 - Size of Impacted Component Map : 0
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:149 - ************Final Impacted TestCase v/s SFDC Component List********************
+2021-09-28 01:52:45 INFO  FindImpactedTestScriptVsSFDCComponents:163 - *******************************************************************************

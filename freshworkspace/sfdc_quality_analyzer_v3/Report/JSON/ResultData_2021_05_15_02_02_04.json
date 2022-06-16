@@ -1,0 +1,25 @@
+{
+  "DownloadedSOQLResults": [
+    {
+      "Id": "0995x00000042MCAAY",
+      "MasterLabel": "SiteFooter",
+      "Name": "SiteFooter"
+    },
+    {
+      "Id": "0995x00000042MBAAY",
+      "MasterLabel": "SiteHeader",
+      "Name": "SiteHeader"
+    },
+    {
+      "Id": "0995x00000042MDAAY",
+      "MasterLabel": "SiteLogin",
+      "Name": "SiteLogin"
+    },
+    {
+      "Id": "0995x00000042MAAAY",
+      "MasterLabel": "SitePoweredBy",
+      "Name": "SitePoweredBy"
+    }
+  ],
+  "TotalRecords": 4
+}

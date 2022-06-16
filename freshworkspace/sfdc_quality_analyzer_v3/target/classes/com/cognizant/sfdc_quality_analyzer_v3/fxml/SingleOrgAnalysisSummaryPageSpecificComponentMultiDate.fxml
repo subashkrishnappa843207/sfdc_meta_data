@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.SingleOrgAnalysisSummaryPageSpecificComponentMultiDate">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="470.0" prefHeight="215.0" prefWidth="882.0">
+         <children>
+            <ComboBox id="SelectReportingFileFormat" fx:id="SelectReportingFileFormat" layoutX="14.0" layoutY="25.0" prefHeight="31.0" prefWidth="154.0" promptText="Select File Format" />
+            <Button fx:id="generateImpactAnalysisReportButton" layoutX="176.0" layoutY="24.0" mnemonicParsing="false" onAction="#generateImpactAnalysisReport" prefHeight="31.0" prefWidth="275.0" text="Generate Impact Analysis Report">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-automation.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <TextField id="GeneratedReportPath" fx:id="GeneratedReportPath" layoutX="459.0" layoutY="24.0" prefHeight="31.0" prefWidth="419.0" promptText="This is the Path, where your Impact Analysis report will get saved">
+               <tooltip>
+                  <Tooltip text="This is the Path, where your Impact Analysis report will get saved" />
+               </tooltip>
+            </TextField>
+            <Separator layoutX="18.0" layoutY="7.0" prefHeight="7.0" prefWidth="835.0" />
+            <Separator layoutX="20.0" layoutY="70.0" prefHeight="7.0" prefWidth="835.0" />
+            <Button fx:id="identifyAutomationTestScriptsButton" layoutX="14.0" layoutY="90.0" onAction="#identifyAutomationTestScripts" prefHeight="111.0" prefWidth="263.0" text="Run Test Impact Analysis" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="88.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-pass-fail.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button id="switchToTestAutomationHomePage" fx:id="switchToTestAutomationHomePage" layoutX="303.0" layoutY="90.0" onAction="#switchToTestAutomationHomePage" prefHeight="111.0" prefWidth="285.0" text="Go To Selenium Test Automation Page" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="85.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-selenium.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="createPackageXMLFileButton" disable="true" layoutX="613.0" layoutY="90.0" onAction="#createPackageXMLFile" prefHeight="111.0" prefWidth="263.0" text="Create package.xml with Identified Impacted SFDC Components" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-xml-file.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="555.0" layoutY="210.0" prefHeight="260.0" prefWidth="334.0">
+         <children>
+            <Button id="ViewMoreDetailsButton" fx:id="ViewMoreDetailsButton" layoutX="63.0" layoutY="183.0" mnemonicParsing="false" onAction="#ViewMoreDetails" prefHeight="63.0" prefWidth="212.0" text="View More Details">
+               <graphic>
+                  <ImageView fitHeight="63.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-light-automation.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView id="RecordFoundSmiley" fx:id="RecordFoundSmiley" fitHeight="118.0" fitWidth="138.0" layoutX="6.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+            <Label id="RecordCount" fx:id="RecordCount" alignment="CENTER" layoutX="151.0" layoutY="35.0" prefHeight="104.0" prefWidth="174.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label id="RecordCountPrefix" fx:id="RecordCountPrefix" layoutX="196.0" prefHeight="31.0" prefWidth="85.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label id="RecordCountSuffix" fx:id="RecordCountSuffix" layoutX="165.0" layoutY="145.0" prefHeight="31.0" prefWidth="154.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="368.0" layoutY="19.0" prefHeight="33.0" prefWidth="304.0" text="Single Org Analysis Summary Page View" />
+      <AnchorPane layoutX="540.0" layoutY="57.0" prefHeight="154.0" prefWidth="346.0">
+         <children>
+            <DatePicker id="SelectFromDate" fx:id="SelectFromDate" layoutX="14.0" layoutY="20.0" onAction="#SelectFromDate" prefHeight="31.0" prefWidth="154.0" promptText="From Date" />
+            <Button id="FindImpactedComponentsButton" fx:id="FindImpactedComponentsButton" layoutX="62.0" layoutY="64.0" mnemonicParsing="false" onAction="#FindImpactedComponents" prefHeight="62.0" prefWidth="236.0" text="Find Impacted Salesforce Components" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-automation.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Separator layoutX="14.0" layoutY="141.0" prefHeight="0.0" prefWidth="321.0" />
+            <DatePicker id="SelectToDate" fx:id="SelectToDate" layoutX="179.0" layoutY="21.0" onAction="#SelectToDate" prefHeight="31.0" prefWidth="154.0" promptText="To Date" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="HomeButton" layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="PreviousPageButton" layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="40.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="780.0" layoutY="5.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane layoutX="9.0" layoutY="76.0" prefHeight="392.0" prefWidth="538.0">
+         <children>
+            <ListView id="SalesforceInScopeComponentListView" fx:id="SalesforceInScopeComponentListView" layoutX="9.0" layoutY="42.0" prefHeight="275.0" prefWidth="230.0" />
+            <ComboBox id="SalesforceComponentCombobox" fx:id="SalesforceComponentCombobox" disable="true" layoutX="8.0" layoutY="5.0" prefHeight="31.0" prefWidth="230.0" promptText="Choose Salesforce Components" />
+            <Button id="OutOfScopeComponentsButton" fx:id="OutOfScopeComponentsButton" layoutX="102.0" layoutY="324.0" mnemonicParsing="false" onAction="#ViewOutOfScopeComponents" prefHeight="62.0" prefWidth="304.0" text="See Out Scoped Salesforce Components from above list" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-cloud-cross.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ComboBox id="SalesforceSelectedComponentCombobox" fx:id="SalesforceSelectedComponentCombobox" disable="true" layoutX="299.0" layoutY="5.0" prefHeight="31.0" prefWidth="230.0" promptText="Selected Salesforce Components" />
+            <ListView id="SalesforceSelectedComponentListView" fx:id="SalesforceSelectedComponentListView" layoutX="300.0" layoutY="42.0" prefHeight="275.0" prefWidth="230.0" />
+            <Button id="AddComponent" fx:id="AddComponent" layoutX="246.0" layoutY="125.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="48.0" text="&gt;&gt;" />
+            <Button id="RemoveComponent" fx:id="RemoveComponent" layoutX="246.0" layoutY="166.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="48.0" text="&lt;&lt;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

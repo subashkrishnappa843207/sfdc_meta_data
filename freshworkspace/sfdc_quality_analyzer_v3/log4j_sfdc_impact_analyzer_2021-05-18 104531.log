@@ -1,0 +1,11 @@
+2021-05-18 22:45:33 INFO  AppSettingsPage:40 - sfdc.oauth.clientid
+2021-05-18 22:45:33 INFO  AppSettingsPage:46 - sfdc.oauth.clientid
+2021-05-18 22:45:33 INFO  AppLauncherPage:40 - Switching to App Settings Page
+2021-05-18 22:45:37 INFO  AppSettingsPage:53 - Going back to the Login Page
+2021-05-18 22:45:39 INFO  AppLauncherPage:34 - Switching to App Home Page
+2021-05-18 22:45:40 INFO  AppHomePage:42 - Switching to Selenium Automation Home Page
+2021-05-18 22:45:40 INFO  SeleniumAutomationHomePage:17 - Moving to Launch CITS Home Page
+2021-05-18 22:45:42 INFO  LaunchCITSHomePage:48 - launching CITS Automation Tool
+2021-05-18 22:45:42 INFO  LaunchCITSHomePage:49 - Base Directory : C:\Users\porya\freshworkspace\sfdc_quality_analyzer_v3
+2021-05-18 22:45:42 INFO  LaunchCITSHomePage:48 - launching CITS Automation Tool
+2021-05-18 22:45:42 INFO  LaunchCITSHomePage:49 - Base Directory : C:\Users\porya\freshworkspace\sfdc_quality_analyzer_v3

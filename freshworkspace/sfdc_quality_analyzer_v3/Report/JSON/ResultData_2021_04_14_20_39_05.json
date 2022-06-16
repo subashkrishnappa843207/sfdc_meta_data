@@ -1,0 +1,11 @@
+{
+  "DownloadedSOQLResults": [
+    {
+      "ShowViewHierarchyLink": "true",
+      "IsAccountTeamsEnabled": "false",
+      "Metadata": "{\"urls\":null,\"enableAccountHistoryTracking\":false,\"enableAccountTeams\":false,\"showViewHierarchyLink\":true,\"enableRelateContactToMultipleAccounts\":false,\"enableContactHistoryTracking\":false,\"enableAccountOwnerReport\":null}",
+      "Id": "000000000000000AAA"
+    }
+  ],
+  "TotalRecords": 1
+}

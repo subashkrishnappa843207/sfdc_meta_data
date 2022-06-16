@@ -1,0 +1,41 @@
+{
+  "FinalImpactDetails": [
+    {
+      "ComponentType": "ApexClass",
+      "SourceOrgComponentNames": "[SiteLoginController, SiteLoginControllerTest, SiteRegisterController, SiteRegisterControllerTest, ChangePasswordController, ChangePasswordControllerTest, ForgotPasswordController, ForgotPasswordControllerTest, CommunitiesSelfRegControllerTest, CommunitiesSelfRegConfirmController, CommunitiesSelfRegConfirmControllerTest, LightningSelfRegisterController, LightningForgotPasswordController, LightningLoginFormController, LightningLoginFormControllerTest, MyProfilePageController, MyProfilePageControllerTest, CommunitiesLoginController, CommunitiesLoginControllerTest, CommunitiesLandingController, CommunitiesLandingControllerTest, CommunitiesSelfRegController, LightningForgotPasswordControllerTest, LightningSelfRegisterControllerTest, TaskUtilTest, TaskUtil, TestAccountDeletion, TemperatureConverterTest, TemperatureConverter, FundController, FundControllerTest]",
+      "MatchingComponents": "[]",
+      "MissingComponents": "[LightningSelfRegisterController, CommunitiesSelfRegConfirmController, TemperatureConverterTest, TestSuiteAggregationBatch_Test, SiteLoginControllerTest, CommunitiesSelfRegController, SiteRegisterControllerTest, ForgotPasswordControllerTest, TestSuiteAggregationBatch, FundControllerTest, CommunitiesSelfRegConfirmControllerTest, MyProfilePageController, LightningLoginFormControllerTest, LightningForgotPasswordControllerTest, ChangePasswordControllerTest, TaskUtilTest, TestAccountDeletion, CommunitiesLoginController, CommunitiesSelfRegControllerTest, LightningLoginFormController, MyProfilePageControllerTest, CommunitiesLoginControllerTest, FundController, CommunitiesLandingController, ForgotPasswordController, LightningSelfRegisterControllerTest, TemperatureConverter, SiteLoginController, CallBatchController, TaskUtil, LightningForgotPasswordController, CommunitiesLandingControllerTest, SiteRegisterController, ChangePasswordController]",
+      "TargetOrgId": "00D2v000000QZ7MEAW",
+      "TargetOrgComponentNames": "[CallBatchController, TestSuiteAggregationBatch, TestSuiteAggregationBatch_Test]",
+      "SourceOrgId": "00Df2000000BoLSEA0"
+    },
+    {
+      "ComponentType": "ApexComponent",
+      "SourceOrgComponentNames": "[SiteFooter, SiteHeader, SiteLogin, SitePoweredBy]",
+      "MatchingComponents": "[]",
+      "MissingComponents": "[SiteFooter, SiteLogin, SitePoweredBy, SiteHeader]",
+      "TargetOrgId": "00D2v000000QZ7MEAW",
+      "TargetOrgComponentNames": "[]",
+      "SourceOrgId": "00Df2000000BoLSEA0"
+    },
+    {
+      "ComponentType": "ApexPage",
+      "SourceOrgComponentNames": "[SiteRegister, ChangePassword, ForgotPassword, SiteLogin, ForgotPasswordConfirm, SiteRegisterConfirm, MyProfilePage, StdExceptionTemplate, SiteTemplate, FileNotFound, BandwidthExceeded, Exception, InMaintenance, Unauthorized, UnderConstruction, IdeasHome, AnswersHome, CommunitiesTemplate, CommunitiesLogin, CommunitiesLanding, CommunitiesSelfReg, CommunitiesSelfRegConfirm]",
+      "MatchingComponents": "[]",
+      "MissingComponents": "[ChangePassword, SiteTemplate, InMaintenance, StdExceptionTemplate, FileNotFound, SiteRegister, AnswersHome, CommunitiesSelfReg, ForgotPassword, Exception, IdeasHome, ForgotPasswordConfirm, BandwidthExceeded, CommunitiesLogin, MyProfilePage, CommunitiesTemplate, CommunitiesSelfRegConfirm, SiteLogin, CommunitiesLanding, Unauthorized, SiteRegisterConfirm, UnderConstruction]",
+      "TargetOrgId": "00D2v000000QZ7MEAW",
+      "TargetOrgComponentNames": "[]",
+      "SourceOrgId": "00Df2000000BoLSEA0"
+    },
+    {
+      "ComponentType": "ApexTrigger",
+      "SourceOrgComponentNames": "[HelloWorldTrigger, HelloWorldTrigger_Campaign, AccountDeletion]",
+      "MatchingComponents": "[]",
+      "MissingComponents": "[AccountDeletion, HelloWorldTrigger_Campaign, HelloWorldTrigger]",
+      "TargetOrgId": "00D2v000000QZ7MEAW",
+      "TargetOrgComponentNames": "[]",
+      "SourceOrgId": "00Df2000000BoLSEA0"
+    }
+  ],
+  "TotalRecords": 4
+}

@@ -1,0 +1,49 @@
+{
+  "TotalTestCasesMapped": 2,
+  "FinalMappingDetails": [
+    {
+      "records": [
+        {
+          "ComponentType": "ApexPage",
+          "ComponentName": [
+            "ChangePassword",
+            "ForgotPassword"
+          ]
+        },
+        {
+          "ComponentType": "ApexClass",
+          "ComponentName": [
+            "SiteRegisterController",
+            "SiteRegisterControllerTest"
+          ]
+        }
+      ],
+      "TotalRecords": 2,
+      "TestCaseName": "TestCaseNumber9"
+    },
+    {
+      "records": [
+        {
+          "ComponentType": "ApexPage",
+          "ComponentName": [
+            "MyProfilePage"
+          ]
+        },
+        {
+          "ComponentType": "ApexClass",
+          "ComponentName": [
+            "ForgotPasswordController"
+          ]
+        },
+        {
+          "ComponentType": "ApexTrigger",
+          "ComponentName": [
+            "ImpactAnalyzerDemoTrigger"
+          ]
+        }
+      ],
+      "TotalRecords": 3,
+      "TestCaseName": "TestCaseNumber1"
+    }
+  ]
+}

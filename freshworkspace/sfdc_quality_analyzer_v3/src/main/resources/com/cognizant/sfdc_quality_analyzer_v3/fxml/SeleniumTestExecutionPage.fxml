@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.SeleniumTestExecutionPage">
+   <children>
+      <Label layoutX="391.0" layoutY="26.0" prefHeight="31.0" prefWidth="235.0" text="Selenium Test Execution Home Page" />
+      <Button layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="40.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="40.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="780.0" layoutY="5.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <AnchorPane fx:id="SAT_ThirdAnchorPane" layoutX="26.0" layoutY="78.0" prefHeight="588.0" prefWidth="849.0">
+         <children>
+            <Button id="BrowserStackButton" fx:id="BrowserStackButton" alignment="CENTER" disable="true" layoutX="29.0" layoutY="34.0" mnemonicParsing="false" onAction="#BrowserStackButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation with BrowserStack Integration" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-website.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="SaucelabsButton" fx:id="SaucelabsButton" alignment="CENTER" disable="true" layoutX="307.0" layoutY="34.0" mnemonicParsing="false" onAction="#SaucelabsButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation with Saucelabs Integration" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="84.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-website.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="CircleCIButton" fx:id="CircleCIButton" disable="true" layoutX="582.0" layoutY="218.0" mnemonicParsing="false" onAction="#CircleCIButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation with CircleCI Integration" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="88.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/CircleCI.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="LocalTestExecutionButton" fx:id="LocalTestExecutionButton" layoutX="28.0" layoutY="218.0" mnemonicParsing="false" onAction="#LocalTestExecutionButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation on Local Desktop/Laptop" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="88.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-jenkins.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="DockerButton" fx:id="DockerButton" disable="true" layoutX="307.0" layoutY="218.0" mnemonicParsing="false" onAction="#DockerButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation with Docker and Zalenium Integration" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="94.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="AWSButton" fx:id="AWSButton" disable="true" layoutX="28.0" layoutY="402.0" mnemonicParsing="false" onAction="#AWSButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation with AWS Integration" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-aws.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="AzureButton" fx:id="AzureButton" disable="true" layoutX="307.0" layoutY="401.0" mnemonicParsing="false" onAction="#AzureButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation with Azure Integration" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="96.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-microsoft.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="PerfectoButton" fx:id="PerfectoButton" disable="true" layoutX="582.0" layoutY="34.0" mnemonicParsing="false" onAction="#PerfectoButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation with Perfecto Integration" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-website.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button id="CumulusCIButton" fx:id="CumulusCIButton" disable="true" layoutX="582.0" layoutY="401.0" mnemonicParsing="false" onAction="#CumulusCIButton" prefHeight="146.0" prefWidth="235.0" text="Run Test Automation with SFDX Platform and CumulusCI" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="106.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-salesforce.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+{
+  "FinalImpactDetails": [
+    {
+      "ComponentType": "ApexClass",
+      "SourceOrgComponentNames": "[CallBatchController, TestSuiteAggregationBatch, TestSuiteAggregationBatch_Test]",
+      "MatchingComponents": "[]",
+      "MissingComponents": "[LightningSelfRegisterController, CommunitiesSelfRegConfirmController, TemperatureConverterTest, SiteLoginControllerTest, TestSuiteAggregationBatch_Test, CommunitiesSelfRegController, SiteRegisterControllerTest, ForgotPasswordControllerTest, TestSuiteAggregationBatch, FundControllerTest, CommunitiesSelfRegConfirmControllerTest, MyProfilePageController, LightningLoginFormControllerTest, LightningForgotPasswordControllerTest, ChangePasswordControllerTest, TaskUtilTest, TestAccountDeletion, CommunitiesLoginController, CommunitiesSelfRegControllerTest, LightningLoginFormController, MyProfilePageControllerTest, CommunitiesLoginControllerTest, FundController, CommunitiesLandingController, ForgotPasswordController, LightningSelfRegisterControllerTest, TemperatureConverter, SiteLoginController, TaskUtil, CallBatchController, LightningForgotPasswordController, CommunitiesLandingControllerTest, SiteRegisterController, ChangePasswordController]",
+      "TargetOrgId": "00Df2000000BoLSEA0",
+      "TargetOrgComponentNames": "[SiteLoginController, SiteLoginControllerTest, SiteRegisterController, SiteRegisterControllerTest, ChangePasswordController, ChangePasswordControllerTest, ForgotPasswordController, ForgotPasswordControllerTest, CommunitiesSelfRegControllerTest, CommunitiesSelfRegConfirmController, CommunitiesSelfRegConfirmControllerTest, LightningSelfRegisterController, LightningForgotPasswordController, LightningLoginFormController, LightningLoginFormControllerTest, MyProfilePageController, MyProfilePageControllerTest, CommunitiesLoginController, CommunitiesLoginControllerTest, CommunitiesLandingController, CommunitiesLandingControllerTest, CommunitiesSelfRegController, LightningForgotPasswordControllerTest, LightningSelfRegisterControllerTest, TaskUtilTest, TaskUtil, TestAccountDeletion, TemperatureConverterTest, TemperatureConverter, FundController, FundControllerTest]",
+      "SourceOrgId": "00D2v000000QZ7MEAW"
+    },
+    {
+      "ComponentType": "ApexComponent",
+      "SourceOrgComponentNames": "[]",
+      "MatchingComponents": "[]",
+      "MissingComponents": "[SiteFooter, SiteLogin, SitePoweredBy, SiteHeader]",
+      "TargetOrgId": "00Df2000000BoLSEA0",
+      "TargetOrgComponentNames": "[SiteFooter, SiteHeader, SiteLogin, SitePoweredBy]",
+      "SourceOrgId": "00D2v000000QZ7MEAW"
+    },
+    {
+      "ComponentType": "ApexTrigger",
+      "SourceOrgComponentNames": "[]",
+      "MatchingComponents": "[]",
+      "MissingComponents": "[AccountDeletion, HelloWorldTrigger_Campaign, HelloWorldTrigger]",
+      "TargetOrgId": "00Df2000000BoLSEA0",
+      "TargetOrgComponentNames": "[HelloWorldTrigger, HelloWorldTrigger_Campaign, AccountDeletion]",
+      "SourceOrgId": "00D2v000000QZ7MEAW"
+    }
+  ],
+  "TotalRecords": 3
+}

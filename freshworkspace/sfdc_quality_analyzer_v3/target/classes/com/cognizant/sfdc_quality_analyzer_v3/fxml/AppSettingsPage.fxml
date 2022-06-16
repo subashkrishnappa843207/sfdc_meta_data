@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.AppSettingsPage">
+   <children>
+      <Button id="GoBackToLoginPage" fx:id="GoBackToLoginPage" layoutX="8.0" layoutY="14.0" onAction="#GoBackToLoginPage" prefHeight="31.0" prefWidth="189.0" text="Go Back to Login Page" />
+      <Label layoutX="297.0" layoutY="20.0" prefHeight="49.0" prefWidth="301.0" text="SFDC Quality Analyzer 360 Tool's Settings Page" textAlignment="CENTER" wrapText="true" />
+      <AnchorPane layoutX="84.0" layoutY="65.0" prefHeight="576.0" prefWidth="732.0">
+         <children>
+            <PasswordField id="SFDCClientIDSingleOrg" fx:id="SFDCClientIDSingleOrg" layoutX="346.0" layoutY="114.0" prefHeight="25.0" prefWidth="374.0" promptText="Fill out Cliend ID generated from Salesforce Connected App " />
+            <Label layoutX="113.0" layoutY="115.0" prefHeight="25.0" prefWidth="222.0" text="1st Client ID for Single Org Login" textAlignment="CENTER" wrapText="true" />
+            <Label layoutX="187.0" layoutY="2.0" prefHeight="25.0" prefWidth="195.0" text="Salesforce Connected App Details" />
+            <Label layoutX="189.0" layoutY="78.0" prefHeight="25.0" prefWidth="147.0" text="Salesforce Login URL" />
+            <TextField id="SFDCLoginURLTextbox" fx:id="SFDCLoginURLTextbox" layoutX="345.0" layoutY="77.0" prefHeight="25.0" prefWidth="374.0" promptText="This field is mandatory If your Salesforce env has Custom Login URL" />
+            <TextField id="SFDCProdCallbackURL" fx:id="SFDCProdCallbackURL" layoutX="347.0" layoutY="186.0" prefHeight="25.0" prefWidth="374.0" promptText="Callback URL for Salesforce Production Environment " text="https://login.salesforce.com/services/oauth2/success" />
+            <TextField id="SFDCSandboxCallbackURL" fx:id="SFDCSandboxCallbackURL" layoutX="347.0" layoutY="223.0" prefHeight="25.0" prefWidth="374.0" promptText="Callback URL for Salesforce Test Sandbox " text="https://test.salesforce.com/services/oauth2/success" />
+            <Label layoutX="117.0" layoutY="189.0" prefHeight="25.0" prefWidth="222.0" text="SFDC Production Callback URL" />
+            <Label layoutX="177.0" layoutY="223.0" prefHeight="25.0" prefWidth="161.0" text="SFDC Test Callback URL" />
+            <CheckBox id="IsUsingCustomLoginURL" fx:id="IsUsingCustomLoginURL" layoutX="150.0" layoutY="43.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="530.0" text="Are you using Custom URL to Log into your Salesforce Environment?" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <PasswordField id="SFDCClientIDMultiOrg" fx:id="SFDCClientIDMultiOrg" layoutX="347.0" layoutY="150.0" prefHeight="25.0" prefWidth="374.0" promptText="Fill out Cliend ID generated from Salesforce Connected App " />
+            <Label layoutX="7.0" layoutY="150.0" prefHeight="25.0" prefWidth="335.0" text="2nd Client ID (In case you perform Multi Org Analysis)" textAlignment="CENTER" wrapText="true" />
+         </children>
+      </AnchorPane>
+      <Button id="SaveSettingsDetails" fx:id="SaveSettingsDetails" layoutX="576.0" layoutY="655.0" mnemonicParsing="false" onAction="#SaveSettingsDetails" prefHeight="31.0" prefWidth="74.0" text="Save" />
+      <Button id="ResetButton" fx:id="ResetButton" layoutX="663.0" layoutY="655.0" mnemonicParsing="false" onAction="#ResetButton" prefHeight="31.0" prefWidth="74.0" text="Reset" />
+   </children>
+</AnchorPane>

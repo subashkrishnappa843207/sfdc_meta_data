@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cognizant.gui.SFDCandTestScriptMappingPage">
+   <children>
+      <Label layoutX="240.0" layoutY="45.0" prefHeight="31.0" prefWidth="487.0" text="Salesforce Org Component and Automation Test Script Mapping Page" />
+      <Button layoutX="10.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToHomePage" prefHeight="32.0" prefWidth="96.0" text="Home">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-home.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="118.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchBackToPreviousPage" prefHeight="41.0" prefWidth="96.0" text="Back">
+         <graphic>
+            <ImageView fitHeight="77.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-go-back.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="780.0" layoutY="6.0" mnemonicParsing="false" onAction="#signOut" prefHeight="40.0" prefWidth="110.0" text="Sign Out">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <AnchorPane fx:id="SAT_SecondAnchorPane" layoutX="20.0" layoutY="148.0" prefHeight="214.0" prefWidth="409.0">
+         <children>
+            <Label layoutX="5.0" layoutY="5.0" prefHeight="24.0" prefWidth="400.0" text="Login to your Salesforce Environment , to retrieve the Components" />
+            <Button id="SalesforceSignInButton" fx:id="SalesforceSignInButton" layoutX="88.0" layoutY="148.0" mnemonicParsing="false" onAction="#SalesforceSignInForTestCasesMapping" prefHeight="63.0" prefWidth="249.0" text="Authenticate and Authorize Salesforce User" textAlignment="CENTER" wrapText="true">
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-user-shield.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <ComboBox id="SalesforceTestCaseMappingEnvironmentList" fx:id="SalesforceTestCaseMappingEnvironmentList" layoutX="108.0" layoutY="41.0" prefHeight="38.0" prefWidth="209.0" promptText="Environment" />
+            <ComboBox id="SalesforceTestCaseMappingAPIVersionList" fx:id="SalesforceTestCaseMappingAPIVersionList" layoutX="108.0" layoutY="92.0" prefHeight="38.0" prefWidth="209.0" promptText="API Version" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="25.0" layoutY="81.0" prefHeight="63.0" prefWidth="851.0" text="Note : This feature to map the Salesforce components (of logged in Salesforce Org) WITH  Automation Scripts you have build for your project so far. This mapping will help you to identify the impacted automated testcases when you run the Single Org or Multi Org Impact Analysis in future." textAlignment="CENTER" wrapText="true" />
+      <Separator layoutX="350.0" layoutY="405.0" prefWidth="200.0" />
+      <AnchorPane layoutX="9.0" layoutY="423.0" prefHeight="177.0" prefWidth="883.0">
+         <children>
+            <Label layoutX="268.0" layoutY="7.0" prefHeight="24.0" prefWidth="290.0" text="Fill in below details before you proceed further !!!" />
+            <RadioButton id="NewMappingDocumentRadioButton" fx:id="NewMappingDocumentRadioButton" layoutX="260.0" layoutY="45.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="363.0" text="Create a New Testcases Mapping document" />
+            <RadioButton id="ExistingMappingDocumentRadioButton" fx:id="ExistingMappingDocumentRadioButton" layoutX="261.0" layoutY="84.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="371.0" text="Update an Existing Testcases Mapping document" />
+            <Button id="ImportExistingMappingFIleButton" fx:id="ImportExistingMappingFIleButton" layoutX="1.0" layoutY="135.0" mnemonicParsing="false" onAction="#ImportExistingMappingFIle" prefHeight="32.0" prefWidth="224.0" text="Import the mapping file">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-folder-128.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <TextField id="ExistingTestCasesMappingFilePath" fx:id="ExistingTestCasesMappingFilePath" layoutX="232.0" layoutY="135.0" prefHeight="32.0" prefWidth="643.0" promptText="This field will get populate automatically when you choose to update existing mapping file" />
+         </children>
+      </AnchorPane>
+      <Separator layoutX="350.0" layoutY="620.0" prefWidth="200.0" />
+      <Button id="switchToMappingSummaryPageButton" fx:id="switchToMappingSummaryPageButton" layoutX="623.0" layoutY="631.0" mnemonicParsing="false" onAction="#switchToMappingSummaryPage" prefHeight="51.0" prefWidth="258.0" text="Go to Mapping Summary Page" textAlignment="CENTER" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="88.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-automation.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Separator layoutX="437.0" layoutY="148.0" orientation="VERTICAL" prefHeight="228.0" prefWidth="6.0" />
+      <AnchorPane layoutX="455.0" layoutY="155.0" prefHeight="214.0" prefWidth="438.0">
+         <children>
+            <Label layoutX="14.0" layoutY="35.0" prefHeight="24.0" prefWidth="147.0" text="Logged In User Name :" />
+            <Label layoutX="18.0" layoutY="81.0" prefHeight="24.0" prefWidth="147.0" text="Logged In Org Name :" />
+            <Label layoutX="5.0" layoutY="129.0" prefHeight="24.0" prefWidth="158.0" text="Logged In Instance URL :" />
+            <Label layoutX="58.0" layoutY="177.0" prefHeight="24.0" prefWidth="107.0" text="Is it a Sanbox ? " />
+            <TextField id="SuccessfulLoginUserName" fx:id="SuccessfulLoginUserName" layoutX="168.0" layoutY="32.0" prefHeight="31.0" prefWidth="258.0" />
+            <TextField id="SuccessfulLoginOrgName" fx:id="SuccessfulLoginOrgName" layoutX="168.0" layoutY="78.0" prefHeight="32.0" prefWidth="258.0" />
+            <TextField id="SuccessfulLoginOrgInstanceURL" fx:id="SuccessfulLoginOrgInstanceURL" layoutX="168.0" layoutY="126.0" prefHeight="32.0" prefWidth="258.0" />
+            <TextField id="SuccessfulLoginOrgSandbox" fx:id="SuccessfulLoginOrgSandbox" layoutX="168.0" layoutY="172.0" prefHeight="32.0" prefWidth="258.0" />
+         </children>
+      </AnchorPane>
+      <Label id="SuccessfulLoginLabel" fx:id="SuccessfulLoginLabel" layoutX="612.0" layoutY="156.0" prefHeight="24.0" prefWidth="107.0" />
+   </children>
+</AnchorPane>

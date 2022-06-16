@@ -1,0 +1,1086 @@
+{
+  "FinalImpactDetails": [
+    {
+      "ComponentType": "DeployRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceFlow",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "InboundNetworkConnection",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Document",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceFlowConfig",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "BrandingSetProperty",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FieldMappingField",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningBolt",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Scontrol",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LocalizedValue",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2Member",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PromptVersion",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "TestSuiteMembership",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ContainerAsyncRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectResourceType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "DebugLevel",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FlexiPage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomObject",
+      "records": [
+        {
+          "LastModifiedDate": "2020-09-24T04:16:45.000+0000",
+          "ComponentName": "TestObject"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "PackageVersionUninstallRequestError",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceCustomComponent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowFieldUpdate",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AssignmentRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UiFormulaCriterion",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningComponentBundle",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AnimationRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UserProvisioningConfig",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowOutboundMessage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UiFormulaRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UserCriteria",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexClass",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexExecutionOverlayAction",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectAsset",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleasedApexClassRel",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FieldMappingRow",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomNotificationType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PlatformEventChannel",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Group",
+      "records": [
+        {
+          "LastModifiedDate": "2020-07-18T05:34:36.000+0000",
+          "ComponentName": "Ursa_Major"
+        },
+        {
+          "LastModifiedDate": "2020-07-18T05:34:36.000+0000",
+          "ComponentName": "Ursa_Major_Customer_Account_Portal"
+        },
+        {
+          "LastModifiedDate": "2020-07-18T05:34:36.000+0000",
+          "ComponentName": "Category_1_Biking"
+        },
+        {
+          "LastModifiedDate": "2020-07-18T05:34:36.000+0000",
+          "ComponentName": "Cloud_Kicks"
+        }
+      ],
+      "TotalRecords": 4
+    },
+    {
+      "ComponentType": "PlatformEventChannelMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "RecommendationStrategy",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowAlertMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "InboundNetworkConnProperty",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningExperienceTheme",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FlowElementTestCoverage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectResourceDefinition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Profile",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexEmailNotification",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomApplication",
+      "records": [
+        {
+          "LastModifiedDate": "2020-07-24T03:01:17.000+0000",
+          "ComponentName": "AllTabSet"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:23.000+0000",
+          "ComponentName": "Commerce"
+        }
+      ],
+      "TotalRecords": 2
+    },
+    {
+      "ComponentType": "ExternalServiceRegistration",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FieldSet",
+      "records": [
+        {
+          "LastModifiedDate": "2020-09-24T04:19:34.000+0000",
+          "ComponentName": "Test_Object_Details"
+        },
+        {
+          "LastModifiedDate": "2020-09-24T04:18:49.000+0000",
+          "ComponentName": "Test_Object_Name"
+        }
+      ],
+      "TotalRecords": 2
+    },
+    {
+      "ComponentType": "Package2",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PackageUploadRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AuraDefinitionBundle",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "HomePageComponent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowRuleMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CleanDataService",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CompactLayout",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AuraDefinition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "HomePageLayout",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PlatformCachePartitionType",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "QuickActionDefinition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexDebuggerSession",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectSource",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ExternalString",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceBranding",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PathAssistantStepItem",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WebLink",
+      "records": [
+        {
+          "LastModifiedDate": "2020-08-26T04:14:53.000+0000",
+          "ComponentName": "TestButton_26082020"
+        },
+        {
+          "LastModifiedDate": "2020-08-14T16:38:36.000+0000",
+          "ComponentName": "TestDisplayButton1"
+        },
+        {
+          "LastModifiedDate": "2020-08-14T16:39:30.000+0000",
+          "ComponentName": "TestDisplayButton2"
+        },
+        {
+          "LastModifiedDate": "2020-09-24T04:23:24.000+0000",
+          "ComponentName": "Test_Button"
+        },
+        {
+          "LastModifiedDate": "2020-08-20T07:30:46.000+0000",
+          "ComponentName": "TestDisplayButton_Campaign"
+        }
+      ],
+      "TotalRecords": 5
+    },
+    {
+      "ComponentType": "EmbeddedServiceQuickAction",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Flow",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexTestSuite",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PackageVersionInstallRequestError",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Layout",
+      "records": [
+        {
+          "LastModifiedDate": "2020-07-24T03:01:22.000+0000",
+          "ComponentName": "Order Product Summary Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:19.000+0000",
+          "ComponentName": "Order Adjustment Group Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:22.000+0000",
+          "ComponentName": "Order Product Adjustment Line Item Summary Layout"
+        },
+        {
+          "LastModifiedDate": "2020-09-24T04:23:47.000+0000",
+          "ComponentName": "TestObject Layout"
+        },
+        {
+          "LastModifiedDate": "2020-05-26T07:40:50.000+0000",
+          "ComponentName": "Contact Point Phone Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:20.000+0000",
+          "ComponentName": "Payment Gateway Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:20.000+0000",
+          "ComponentName": "Digital Wallet Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:22.000+0000",
+          "ComponentName": "Order Delivery Group Summary Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:20.000+0000",
+          "ComponentName": "Payment Group Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:55:22.000+0000",
+          "ComponentName": "Opportunity Contact Role Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:19.000+0000",
+          "ComponentName": "Fulfillment Order Item Tax Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:21.000+0000",
+          "ComponentName": "Payment Authorization Layout"
+        },
+        {
+          "LastModifiedDate": "2020-08-10T02:08:05.000+0000",
+          "ComponentName": "Associated Location Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:55:29.000+0000",
+          "ComponentName": "Partner Fund Claim Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:18.000+0000",
+          "ComponentName": "Order Delivery Group Layout"
+        },
+        {
+          "LastModifiedDate": "2020-08-10T02:08:55.000+0000",
+          "ComponentName": "Location Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:20.000+0000",
+          "ComponentName": "Refund Line Payment Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:20.000+0000",
+          "ComponentName": "Order Payment Summary Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:54:34.000+0000",
+          "ComponentName": "Channel Program Member Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:23.000+0000",
+          "ComponentName": "External Managed Account Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:54:33.000+0000",
+          "ComponentName": "Channel Program Level Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:19.000+0000",
+          "ComponentName": "Order Delivery Method Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:19.000+0000",
+          "ComponentName": "Order Summary Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:55:30.000+0000",
+          "ComponentName": "Partner Fund Request Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:18.000+0000",
+          "ComponentName": "Order Product Tax Line Item Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:22.000+0000",
+          "ComponentName": "Order Product Tax Line Item Summary Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:20.000+0000",
+          "ComponentName": "Sales Channel Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:55:28.000+0000",
+          "ComponentName": "Partner Fund Allocation Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:19.000+0000",
+          "ComponentName": "Fulfillment Order Item Adjustment Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:55:09.000+0000",
+          "ComponentName": "Linked Article Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:21.000+0000",
+          "ComponentName": "Payment Line Invoice Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:17.000+0000",
+          "ComponentName": "Order Product Adjustment Line Item Layout"
+        },
+        {
+          "LastModifiedDate": "2020-08-26T04:13:41.000+0000",
+          "ComponentName": "Campaign Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:23.000+0000",
+          "ComponentName": "Order Product Summary Change Layout"
+        },
+        {
+          "LastModifiedDate": "2020-05-26T07:40:50.000+0000",
+          "ComponentName": "Contact Point Email Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:20.000+0000",
+          "ComponentName": "Payment Gateway Log Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:21.000+0000",
+          "ComponentName": "Card Payment Method Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-18T05:34:40.000+0000",
+          "ComponentName": "Contact Point Address Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:19.000+0000",
+          "ComponentName": "Fulfillment Order Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:20.000+0000",
+          "ComponentName": "Refund Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:54:32.000+0000",
+          "ComponentName": "Channel Program Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:22.000+0000",
+          "ComponentName": "Order Adjustment Group Summary Layout"
+        },
+        {
+          "LastModifiedDate": "2020-07-24T03:01:21.000+0000",
+          "ComponentName": "Payment Layout"
+        },
+        {
+          "LastModifiedDate": "2020-06-09T20:55:30.000+0000",
+          "ComponentName": "Partner Marketing Budget Layout"
+        }
+      ],
+      "TotalRecords": 44
+    },
+    {
+      "ComponentType": "PortalDelegablePermissionSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AuraDefinitionChange",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Prompt",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PathAssistant",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexComponent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "AutoResponseRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "MutingPermissionSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "NamedCredential",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowFieldUpdateMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomFieldMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ManagedContentNodeType",
+      "records": [
+        {
+          "LastModifiedDate": "2020-07-18T05:34:38.000+0000",
+          "ComponentName": "altText"
+        },
+        {
+          "LastModifiedDate": "2020-07-18T05:34:38.000+0000",
+          "ComponentName": "source"
+        },
+        {
+          "LastModifiedDate": "2020-07-18T05:34:38.000+0000",
+          "ComponentName": "title"
+        },
+        {
+          "LastModifiedDate": "2020-07-18T05:34:38.000+0000",
+          "ComponentName": "thumbUrl"
+        }
+      ],
+      "TotalRecords": 4
+    },
+    {
+      "ComponentType": "PathAssistantStepInfo",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PlatformCachePartition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleasedEntityState",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Index",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2Version",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexPageMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningMessageChannel",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2VersionCreateRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "IDEWorkspace",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceConfig",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PostTemplate",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleasedApexIdentifierOption",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "IndexField",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleaseUpdateStep",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "QuickActionList",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexClassMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "QuickActionListItem",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ChannelLayout",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "TraceFlag",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowOutboundMessageMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexTriggerMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "OutboundNetworkConnProperty",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ValidationRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexExecutionOverlayResult",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "DeployTestResult",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PermissionSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowAlert",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmailTemplate",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "DataAssessmentConfigItem",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "TransactionSecurityPolicy",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ValidationRuleMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CleanRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ModerationRule",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectPersonalization",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomTab",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FieldMapping",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "GlobalValueSet",
+      "records": [
+        {
+          "LastModifiedDate": "2020-08-20T07:33:31.000+0000",
+          "ComponentName": "CampaignStatus"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "WorkflowTask",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ManagedContentType",
+      "records": [
+        {
+          "LastModifiedDate": "2020-07-18T05:34:38.000+0000",
+          "ComponentName": "cms_document"
+        },
+        {
+          "LastModifiedDate": "2020-07-18T05:34:38.000+0000",
+          "ComponentName": "cms_image"
+        }
+      ],
+      "TotalRecords": 2
+    },
+    {
+      "ComponentType": "OutboundNetworkConnection",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "WorkflowTaskMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PaymentGatewayProvider",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexComponentMember",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "RecordType",
+      "records": [
+        {
+          "LastModifiedDate": "2020-08-14T15:13:02.000+0000",
+          "ComponentName": "Test_RecordTypes"
+        },
+        {
+          "LastModifiedDate": "2020-09-24T04:17:51.000+0000",
+          "ComponentName": "TestObjectRecordType"
+        }
+      ],
+      "TotalRecords": 2
+    },
+    {
+      "ComponentType": "LookupFilter",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexTrigger",
+      "records": [
+        {
+          "LastModifiedDate": "2020-08-26T04:12:23.000+0000",
+          "ComponentName": "HelloWorldTrigger_Campaign"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "FlowDefinition",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PermissionSetGroup",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "RemoteProxy",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "RecordActionDeployment",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CMSConnectLanguage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ReleasedApexIdentifier",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "StaticResource",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomHelpMenuSection",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "IDEPerspective",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "Package2VersionCreateRequestError",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexPage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "MetadataContainer",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "BrandingSet",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningComponentResource",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceLiveAgent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "EmbeddedServiceMenuItem",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PermissionSetGroupComponent",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "UserRole",
+      "records": [
+        {
+          "LastModifiedDate": "2020-06-11T18:29:08.000+0000",
+          "ComponentName": "Edge Communications Partner Manager"
+        }
+      ],
+      "TotalRecords": 1
+    },
+    {
+      "ComponentType": "PackageInstallRequest",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "ApexLog",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CustomField",
+      "records": [
+        {
+          "LastModifiedDate": "2020-08-26T04:13:41.000+0000",
+          "ComponentName": "TestCheckBox_Custom"
+        },
+        {
+          "LastModifiedDate": "2020-09-24T04:22:39.000+0000",
+          "ComponentName": "Impact_Analyzer_Compatible"
+        },
+        {
+          "LastModifiedDate": "2020-09-24T04:20:13.000+0000",
+          "ComponentName": "Custom_Object"
+        }
+      ],
+      "TotalRecords": 3
+    },
+    {
+      "ComponentType": "KeywordList",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningMessageField",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "BusinessProcess",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "CspTrustedSite",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "FlowCategory",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "LightningOnboardingConfig",
+      "records": [],
+      "TotalRecords": 0
+    }
+  ],
+  "TotalRecords": 156
+}

@@ -1,0 +1,16 @@
+2021-05-18 22:45:01 INFO  AppSettingsPage:40 - sfdc.oauth.clientid
+2021-05-18 22:45:01 INFO  AppSettingsPage:46 - sfdc.oauth.clientid
+2021-05-18 22:45:01 INFO  AppLauncherPage:40 - Switching to App Settings Page
+2021-05-18 22:45:04 INFO  AppSettingsPage:81 - Primary Client Id has been set successfully
+2021-05-18 22:45:04 INFO  AppSettingsPage:94 - Secondary Client Id has been set successfully
+2021-05-18 22:45:06 INFO  AppSettingsPage:53 - Going back to the Login Page
+2021-05-18 22:45:07 INFO  AppLauncherPage:34 - Switching to App Home Page
+2021-05-18 22:45:07 INFO  AppHomePage:30 - Switching to SFDC Org Impact Analysis Page
+2021-05-18 22:45:08 INFO  SFDCOrgImpactAnalysisPage:17 - Moving to Single Org Impact Analysis Login Page
+2021-05-18 22:45:10 INFO  SingleOrgLoginPage:85 - EnvironmentList.getValue(): Production
+2021-05-18 22:45:10 INFO  SingleOrgLoginPage:86 - APIVersionList.getValue(): 51.0
+2021-05-18 22:45:10 INFO  SFDCContext:50 - API Version set to /v51.0
+2021-05-18 22:45:11 INFO  SingleOrgLoginPage:101 - Count = 2
+2021-05-18 22:45:11 INFO  SingleOrgLoginPage:102 - Old State = RUNNING
+2021-05-18 22:45:11 INFO  SingleOrgLoginPage:103 - New State = SUCCEEDED
+2021-05-18 22:45:14 INFO  AppHomePage:54 - Switching to App Launcher Page

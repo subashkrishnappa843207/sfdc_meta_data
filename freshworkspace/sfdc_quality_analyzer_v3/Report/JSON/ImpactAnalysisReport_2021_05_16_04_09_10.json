@@ -1,0 +1,265 @@
+{
+  "FinalImpactDetails": [
+    {
+      "ComponentType": "ApexPage",
+      "records": [
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "ChangePassword"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "SiteTemplate"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "InMaintenance"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "StdExceptionTemplate"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "FileNotFound"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "SiteRegister"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "CommunitiesSelfReg"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "AnswersHome"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "ForgotPassword"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "Exception"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "IdeasHome"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "BandwidthExceeded"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "ForgotPasswordConfirm"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "CommunitiesLogin"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:13.000+0000",
+          "ComponentName": "MyProfilePage"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesTemplate"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "CommunitiesSelfRegConfirm"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "SiteLogin"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "CommunitiesLanding"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "Unauthorized"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:16.000+0000",
+          "ComponentName": "SiteRegisterConfirm"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "UnderConstruction"
+        }
+      ],
+      "TotalRecords": 22
+    },
+    {
+      "ComponentType": "ApexClass",
+      "records": [
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "LightningSelfRegisterController"
+        },
+        {
+          "LastModifiedDate": "2021-04-10T02:53:56.000+0000",
+          "ComponentName": "TemperatureConverterTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesSelfRegConfirmController"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "SiteLoginControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesSelfRegController"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "SiteRegisterControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "ForgotPasswordControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesSelfRegConfirmControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "MyProfilePageController"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "LightningLoginFormControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "LightningForgotPasswordControllerTest"
+        },
+        {
+          "LastModifiedDate": "2021-04-10T02:56:19.000+0000",
+          "ComponentName": "TaskUtilTest"
+        },
+        {
+          "LastModifiedDate": "2021-04-10T02:58:05.000+0000",
+          "ComponentName": "TestAccountDeletion"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "ChangePasswordControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesLoginController"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "LightningLoginFormController"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "MyProfilePageControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesSelfRegControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesLoginControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesLandingController"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "LightningSelfRegisterControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "ForgotPasswordController"
+        },
+        {
+          "LastModifiedDate": "2021-04-10T02:53:23.000+0000",
+          "ComponentName": "TemperatureConverter"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "SiteLoginController"
+        },
+        {
+          "LastModifiedDate": "2021-04-10T02:55:42.000+0000",
+          "ComponentName": "TaskUtil"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:15.000+0000",
+          "ComponentName": "LightningForgotPasswordController"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:14.000+0000",
+          "ComponentName": "CommunitiesLandingControllerTest"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "SiteRegisterController"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:11.000+0000",
+          "ComponentName": "ChangePasswordController"
+        }
+      ],
+      "TotalRecords": 29
+    },
+    {
+      "ComponentType": "ApexTrigger",
+      "records": [
+        {
+          "LastModifiedDate": "2021-04-10T02:57:32.000+0000",
+          "ComponentName": "AccountDeletion"
+        },
+        {
+          "LastModifiedDate": "2020-08-26T04:12:23.000+0000",
+          "ComponentName": "HelloWorldTrigger_Campaign"
+        },
+        {
+          "LastModifiedDate": "2021-01-03T03:30:54.000+0000",
+          "ComponentName": "HelloWorldTrigger"
+        },
+        {
+          "LastModifiedDate": "2021-05-13T03:34:45.000+0000",
+          "ComponentName": "ImpactAnalyzerDemoTrigger"
+        }
+      ],
+      "TotalRecords": 4
+    },
+    {
+      "ComponentType": "ApexComponent",
+      "records": [
+        {
+          "LastModifiedDate": "2020-02-05T15:55:12.000+0000",
+          "ComponentName": "SiteFooter"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:13.000+0000",
+          "ComponentName": "SiteLogin"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:12.000+0000",
+          "ComponentName": "SitePoweredBy"
+        },
+        {
+          "LastModifiedDate": "2020-02-05T15:55:12.000+0000",
+          "ComponentName": "SiteHeader"
+        }
+      ],
+      "TotalRecords": 4
+    }
+  ],
+  "TotalRecords": 4
+}

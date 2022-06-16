@@ -1,0 +1,49 @@
+{
+  "FinalImpactDetails": [
+    {
+      "ComponentType": "ApexPage",
+      "records": [],
+      "TotalRecords": 0
+    },
+    {
+      "ComponentType": "PermissionSet",
+      "records": [
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "CRM User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "Service Cloud User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "Salesforce Console User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:57.000+0000",
+          "ComponentName": "Security Center Integration User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "Sales Cloud User"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:58.000+0000",
+          "ComponentName": "Standard Einstein Activity Capture"
+        },
+        {
+          "LastModifiedDate": "2021-04-03T06:33:57.000+0000",
+          "ComponentName": "Salesforce CMS Integration Admin"
+        }
+      ],
+      "TotalRecords": 7
+    },
+    {
+      "ComponentType": "ApexClass",
+      "records": [],
+      "TotalRecords": 0
+    }
+  ],
+  "TotalRecords": 3
+}
